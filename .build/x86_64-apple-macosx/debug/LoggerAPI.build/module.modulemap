@@ -1,0 +1,4 @@
+module LoggerAPI {
+    header "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/LoggerAPI.build/LoggerAPI-Swift.h"
+    requires objc
+}

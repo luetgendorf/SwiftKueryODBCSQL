@@ -54,7 +54,7 @@ func read(fileName: String) -> String {
 
 func executeQuery(query: Query, connection: Connection, callback: @escaping (QueryResult, [[Any?]]?)->()) {
     do {
-        try print("=======\(connection.descriptionOf(query: query))=======")
+        try Log.debug("=======\(connection.descriptionOf(query: query))=======")
     }
     catch {}
     connection.execute(query: query) { result in
@@ -64,7 +64,7 @@ func executeQuery(query: Query, connection: Connection, callback: @escaping (Que
 
 func executeQueryWithParameters(query: Query, connection: Connection, parameters: Any?..., callback: @escaping (QueryResult, [[Any?]]?)->()) {
     do {
-        try print("=======\(connection.descriptionOf(query: query))=======")
+        try Log.debug("=======\(connection.descriptionOf(query: query))=======")
     }
     catch {}
     connection.execute(query: query, parameters: parameters) { result in
@@ -74,7 +74,7 @@ func executeQueryWithParameters(query: Query, connection: Connection, parameters
 
 func executeQueryWithNamedParameters(query: Query, connection: Connection, parameters: [String:Any?], callback: @escaping (QueryResult, [[Any?]]?)->()) {
     do {
-        try print("=======\(connection.descriptionOf(query: query))=======")
+        try Log.debug("=======\(connection.descriptionOf(query: query))=======")
     }
     catch {}
     connection.execute(query: query, parameters: parameters) { result in
@@ -84,14 +84,14 @@ func executeQueryWithNamedParameters(query: Query, connection: Connection, param
 
 
 func executeRawQueryWithParameters(_ raw: String, connection: Connection, parameters: Any?..., callback: @escaping (QueryResult, [[Any?]]?)->()) {
-    print("=======\(raw)=======")
+    Log.debug("=======\(raw)=======")
     connection.execute(raw, parameters: parameters) { result in
         printResultAndGetRowsAsArray(result, callback: callback)
     }
 }
 
 func executeRawQuery(_ raw: String, connection: Connection, callback: @escaping (QueryResult, [[Any?]]?)->()) {
-    print("=======\(raw)=======")
+    Log.debug("=======\(raw)=======")
     connection.execute(raw) { result in
         printResultAndGetRowsAsArray(result, callback: callback)
     }
@@ -112,9 +112,9 @@ private func printResultAndGetRowsAsArray(_ result: QueryResult, callback: @esca
             }
             let length = titles.count > 6 ? 18 : 36
             for title in titles {
-                print(title.padding(toLength: length, withPad: " ", startingAt: 0), terminator: "")
+                Log.debug(title.padding(toLength: length, withPad: " ", startingAt: 0), terminator: "")
             }
-            print()
+            Log.debug()
             resultSet.forEach() { row, error in
                 guard let row = row else {
                     // No more rows
@@ -125,20 +125,20 @@ private func printResultAndGetRowsAsArray(_ result: QueryResult, callback: @esca
                     if let value = value {
                         valueToPrint = String(describing: value)
                     }
-                    print(valueToPrint.padding(toLength: length, withPad: " ", startingAt: 0), terminator: "")
+                    Log.debug(valueToPrint.padding(toLength: length, withPad: " ", startingAt: 0), terminator: "")
                 }
-                print()
+                Log.debug()
                 rows.append(row)
             }
         }
     } else if let value = result.asValue  {
-        print("Result: ", value)
+        Log.debug("Result: ", value)
         callback(result, nil)
     } else if result.success  {
-        print("Success")
+        Log.debug("Success")
         callback(result, nil)
     } else if let queryError = result.asError {
-        print("Error in query: ", queryError)
+        Log.debug("Error in query: ", queryError)
         callback(result, nil)
     }
 }
@@ -152,7 +152,7 @@ func createConnection() -> ODBCSQLConnection! {
     */
     
     let connectionstring = read(fileName: "connectionstring.txt")
-    print(connectionstring)
+    Log.debug(connectionstring)
     // Create connection with URL
     //return PostgreSQLConnection(url: URL(string: "Postgres://\(username):\(password)@\(host):\(port)")!)
   

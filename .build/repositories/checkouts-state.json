@@ -1,0 +1,23 @@
+{
+  "object" : {
+    "repositories" : {
+      "https://github.com/Andrew-Lees11/CunixODBC.git" : {
+        "repositoryURL" : "https://github.com/Andrew-Lees11/CunixODBC.git",
+        "subpath" : "CunixODBC-a57b3f24"
+      },
+      "https://github.com/apple/swift-log.git" : {
+        "repositoryURL" : "https://github.com/apple/swift-log.git",
+        "subpath" : "swift-log-df1c07b5"
+      },
+      "https://github.com/Kitura/LoggerAPI.git" : {
+        "repositoryURL" : "https://github.com/Kitura/LoggerAPI.git",
+        "subpath" : "LoggerAPI-f07baed1"
+      },
+      "https://github.com/Kitura/Swift-Kuery.git" : {
+        "repositoryURL" : "https://github.com/Kitura/Swift-Kuery.git",
+        "subpath" : "Swift-Kuery-673a8394"
+      }
+    }
+  },
+  "version" : 1
+}

@@ -1,0 +1,78 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "cunixodbc",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/Andrew-Lees11/CunixODBC.git",
+          "name" : "CunixODBC"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "3cb6f45af9d71335431794bb18fdbc2cf018ed37",
+            "version" : "0.0.1"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "CunixODBC"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "loggerapi",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/Kitura/LoggerAPI.git",
+          "name" : "LoggerAPI"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "e82d34eab3f0b05391082b11ea07d3b70d2f65bb",
+            "version" : "1.9.200"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "LoggerAPI"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-kuery",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/Kitura/Swift-Kuery.git",
+          "name" : "SwiftKuery"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "b9f53552fadf85ac0782dce4f9880d9d8189a4b3",
+            "version" : "4.0.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Swift-Kuery"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-log",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/apple/swift-log.git",
+          "name" : "swift-log"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "5d66f7ba25daf4f94100e7022febf3c75e37a6c7",
+            "version" : "1.4.2"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "swift-log"
+      }
+    ]
+  },
+  "version" : 5
+}

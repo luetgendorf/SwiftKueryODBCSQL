@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "f77395db4c18447a1974ca6efde679ca3ead4d12cc1529d9fc6235fb808ca69f"
+build_start_time: [1649362226, 550914049]
+build_end_time: [1649362227, 358489990]
+inputs:
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/ODBCColumn.swift": [1649362064, 954751491]
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/ODBCSQLConnection.swift": !private [1649362064, 955055236]
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/ODBCSQLResultFetcher.swift": [1649362064, 955290317]
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/ODBCSQLType.swift": [1649362064, 955450057]
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/Utils.swift": [1649362064, 955604553]

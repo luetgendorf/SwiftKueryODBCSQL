@@ -1,0 +1,4480 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "SwiftKueryODBCSQL",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ODBCColumn",
+      "printedName": "ODBCColumn",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(_:DataType:Colsize:Decimaldigits:Nullable:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ODBCColumn",
+              "printedName": "SwiftKueryODBCSQL.ODBCColumn",
+              "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int16",
+              "printedName": "Swift.Int16",
+              "usr": "s:s5Int16V"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UInt",
+              "printedName": "Swift.UInt",
+              "usr": "s:Su"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int16",
+              "printedName": "Swift.Int16",
+              "usr": "s:s5Int16V"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC_8DataType7Colsize13Decimaldigits8NullableACSS_s5Int16VSuAISbtcfc",
+          "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC_8DataType7Colsize13Decimaldigits8NullableACSS_s5Int16VSuAISbtcfc",
+          "moduleName": "SwiftKueryODBCSQL",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "Name",
+          "printedName": "Name",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC4NameSSvp",
+          "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC4NameSSvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC4NameSSvg",
+              "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC4NameSSvg",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC4NameSSvs",
+              "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC4NameSSvs",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC4NameSSvM",
+              "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC4NameSSvM",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "Datatype",
+          "printedName": "Datatype",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ODBCSQLType",
+              "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+              "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC8DatatypeAA11ODBCSQLTypeOvp",
+          "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC8DatatypeAA11ODBCSQLTypeOvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC8DatatypeAA11ODBCSQLTypeOvg",
+              "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC8DatatypeAA11ODBCSQLTypeOvg",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC8DatatypeAA11ODBCSQLTypeOvs",
+              "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC8DatatypeAA11ODBCSQLTypeOvs",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC8DatatypeAA11ODBCSQLTypeOvM",
+              "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC8DatatypeAA11ODBCSQLTypeOvM",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "Colsize",
+          "printedName": "Colsize",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UInt",
+              "printedName": "Swift.UInt",
+              "usr": "s:Su"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC7ColsizeSuvp",
+          "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC7ColsizeSuvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt",
+                  "printedName": "Swift.UInt",
+                  "usr": "s:Su"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC7ColsizeSuvg",
+              "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC7ColsizeSuvg",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt",
+                  "printedName": "Swift.UInt",
+                  "usr": "s:Su"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC7ColsizeSuvs",
+              "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC7ColsizeSuvs",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC7ColsizeSuvM",
+              "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC7ColsizeSuvM",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "Decimaldigts",
+          "printedName": "Decimaldigts",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "Swift.Int16?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int16",
+                  "printedName": "Swift.Int16",
+                  "usr": "s:s5Int16V"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC12Decimaldigtss5Int16VSgvp",
+          "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC12Decimaldigtss5Int16VSgvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Swift.Int16?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int16",
+                      "printedName": "Swift.Int16",
+                      "usr": "s:s5Int16V"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC12Decimaldigtss5Int16VSgvg",
+              "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC12Decimaldigtss5Int16VSgvg",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Swift.Int16?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int16",
+                      "printedName": "Swift.Int16",
+                      "usr": "s:s5Int16V"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC12Decimaldigtss5Int16VSgvs",
+              "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC12Decimaldigtss5Int16VSgvs",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC12Decimaldigtss5Int16VSgvM",
+              "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC12Decimaldigtss5Int16VSgvM",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "Nullable",
+          "printedName": "Nullable",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC8NullableSbvp",
+          "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC8NullableSbvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC8NullableSbvg",
+              "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC8NullableSbvg",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC8NullableSbvs",
+              "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC8NullableSbvs",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC8NullableSbvM",
+              "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC8NullableSbvM",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC",
+      "mangledName": "$s17SwiftKueryODBCSQL10ODBCColumnC",
+      "moduleName": "SwiftKueryODBCSQL",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl"
+      ],
+      "hasMissingDesignatedInitializers": true
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftKuery",
+      "printedName": "SwiftKuery",
+      "declKind": "Import",
+      "moduleName": "SwiftKueryODBCSQL",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Dispatch",
+      "printedName": "Dispatch",
+      "declKind": "Import",
+      "moduleName": "SwiftKueryODBCSQL"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "SwiftKueryODBCSQL"
+    },
+    {
+      "kind": "Import",
+      "name": "CunixODBC",
+      "printedName": "CunixODBC",
+      "declKind": "Import",
+      "moduleName": "SwiftKueryODBCSQL"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ConnectionState",
+      "printedName": "ConnectionState",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "idle",
+          "printedName": "idle",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ConnectionState.Type) -> SwiftKueryODBCSQL.ConnectionState",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConnectionState",
+                  "printedName": "SwiftKueryODBCSQL.ConnectionState",
+                  "usr": "s:17SwiftKueryODBCSQL15ConnectionStateO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ConnectionState.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ConnectionState",
+                      "printedName": "SwiftKueryODBCSQL.ConnectionState",
+                      "usr": "s:17SwiftKueryODBCSQL15ConnectionStateO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL15ConnectionStateO4idleyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL15ConnectionStateO4idleyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "runningQuery",
+          "printedName": "runningQuery",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ConnectionState.Type) -> SwiftKueryODBCSQL.ConnectionState",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConnectionState",
+                  "printedName": "SwiftKueryODBCSQL.ConnectionState",
+                  "usr": "s:17SwiftKueryODBCSQL15ConnectionStateO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ConnectionState.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ConnectionState",
+                      "printedName": "SwiftKueryODBCSQL.ConnectionState",
+                      "usr": "s:17SwiftKueryODBCSQL15ConnectionStateO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL15ConnectionStateO12runningQueryyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL15ConnectionStateO12runningQueryyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Var",
+          "name": "fetchingResultSet",
+          "printedName": "fetchingResultSet",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ConnectionState.Type) -> SwiftKueryODBCSQL.ConnectionState",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConnectionState",
+                  "printedName": "SwiftKueryODBCSQL.ConnectionState",
+                  "usr": "s:17SwiftKueryODBCSQL15ConnectionStateO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ConnectionState.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ConnectionState",
+                      "printedName": "SwiftKueryODBCSQL.ConnectionState",
+                      "usr": "s:17SwiftKueryODBCSQL15ConnectionStateO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL15ConnectionStateO17fetchingResultSetyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL15ConnectionStateO17fetchingResultSetyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 2
+        },
+        {
+          "kind": "Function",
+          "name": "__derived_enum_equals",
+          "printedName": "__derived_enum_equals(_:_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionState",
+              "printedName": "SwiftKueryODBCSQL.ConnectionState",
+              "usr": "s:17SwiftKueryODBCSQL15ConnectionStateO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionState",
+              "printedName": "SwiftKueryODBCSQL.ConnectionState",
+              "usr": "s:17SwiftKueryODBCSQL15ConnectionStateO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL15ConnectionStateO21__derived_enum_equalsySbAC_ACtFZ",
+          "mangledName": "$s17SwiftKueryODBCSQL15ConnectionStateO21__derived_enum_equalsySbAC_ACtFZ",
+          "moduleName": "SwiftKueryODBCSQL",
+          "static": true,
+          "implicit": true,
+          "declAttributes": [
+            "Implements"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "hashValue",
+          "printedName": "hashValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL15ConnectionStateO9hashValueSivp",
+          "mangledName": "$s17SwiftKueryODBCSQL15ConnectionStateO9hashValueSivp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL15ConnectionStateO9hashValueSivg",
+              "mangledName": "$s17SwiftKueryODBCSQL15ConnectionStateO9hashValueSivg",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "hash",
+          "printedName": "hash(into:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Hasher",
+              "printedName": "Swift.Hasher",
+              "paramValueOwnership": "InOut",
+              "usr": "s:s6HasherV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL15ConnectionStateO4hash4intoys6HasherVz_tF",
+          "mangledName": "$s17SwiftKueryODBCSQL15ConnectionStateO4hash4intoys6HasherVz_tF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:17SwiftKueryODBCSQL15ConnectionStateO",
+      "mangledName": "$s17SwiftKueryODBCSQL15ConnectionStateO",
+      "moduleName": "SwiftKueryODBCSQL",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ODBCSQLConnection",
+      "printedName": "ODBCSQLConnection",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "connection",
+          "printedName": "connection",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.UUID?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UUID",
+                  "printedName": "Foundation.UUID",
+                  "usr": "s:10Foundation4UUIDV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC10connection10Foundation4UUIDVSgvp",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC10connection10Foundation4UUIDVSgvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.UUID?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UUID",
+                      "printedName": "Foundation.UUID",
+                      "usr": "s:10Foundation4UUIDV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC10connection10Foundation4UUIDVSgvg",
+              "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC10connection10Foundation4UUIDVSgvg",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.UUID?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UUID",
+                      "printedName": "Foundation.UUID",
+                      "usr": "s:10Foundation4UUIDV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC10connection10Foundation4UUIDVSgvs",
+              "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC10connection10Foundation4UUIDVSgvs",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC10connection10Foundation4UUIDVSgvM",
+              "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC10connection10Foundation4UUIDVSgvM",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "connectionParameters",
+          "printedName": "connectionParameters",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC20connectionParameters33_83E3356FB21D19FCA799084D261C8675LLSSvp",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC20connectionParameters33_83E3356FB21D19FCA799084D261C8675LLSSvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "dsn",
+          "printedName": "dsn",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC3dsn33_83E3356FB21D19FCA799084D261C8675LLSSvp",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC3dsn33_83E3356FB21D19FCA799084D261C8675LLSSvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "username",
+          "printedName": "username",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC8username33_83E3356FB21D19FCA799084D261C8675LLSSvp",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC8username33_83E3356FB21D19FCA799084D261C8675LLSSvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "password",
+          "printedName": "password",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC8password33_83E3356FB21D19FCA799084D261C8675LLSSvp",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC8password33_83E3356FB21D19FCA799084D261C8675LLSSvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "preparedStatements",
+          "printedName": "preparedStatements",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Set",
+              "printedName": "Swift.Set<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sh"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC18preparedStatements33_83E3356FB21D19FCA799084D261C8675LLShySSGvp",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC18preparedStatements33_83E3356FB21D19FCA799084D261C8675LLShySSGvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "currentResultFetcher",
+          "printedName": "currentResultFetcher",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "SwiftKueryODBCSQL.ODBCSQLResultFetcher?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC20currentResultFetcher33_83E3356FB21D19FCA799084D261C8675LLAA013ODBCSQLResultG0CSgvp",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC20currentResultFetcher33_83E3356FB21D19FCA799084D261C8675LLAA013ODBCSQLResultG0CSgvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "ReferenceOwnership",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 6,
+          "ownership": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "execute",
+          "printedName": "execute(preparedStatement:parameters:onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "PreparedStatement",
+              "printedName": "SwiftKuery.PreparedStatement",
+              "usr": "s:10SwiftKuery17PreparedStatementP"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any?]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Any?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "usr": "s:SD"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC7execute17preparedStatement10parameters12onCompletiony0aB008PreparedG0_p_SDySSypSgGyAH11QueryResultOctF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC7execute17preparedStatement10parameters12onCompletiony0aB008PreparedG0_p_SDySSypSgGyAH11QueryResultOctF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "execute",
+          "printedName": "execute(preparedStatement:parameters:onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "PreparedStatement",
+              "printedName": "SwiftKuery.PreparedStatement",
+              "usr": "s:10SwiftKuery17PreparedStatementP"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Any?]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Any?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC7execute17preparedStatement10parameters12onCompletiony0aB008PreparedG0_p_SayypSgGyAH11QueryResultOctF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC7execute17preparedStatement10parameters12onCompletiony0aB008PreparedG0_p_SayypSgGyAH11QueryResultOctF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "execute",
+          "printedName": "execute(preparedStatement:onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "PreparedStatement",
+              "printedName": "SwiftKuery.PreparedStatement",
+              "usr": "s:10SwiftKuery17PreparedStatementP"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC7execute17preparedStatement12onCompletiony0aB008PreparedG0_p_yAG11QueryResultOctF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC7execute17preparedStatement12onCompletiony0aB008PreparedG0_p_yAG11QueryResultOctF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "execute",
+          "printedName": "execute(query:parameters:onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Query",
+              "printedName": "SwiftKuery.Query",
+              "usr": "s:10SwiftKuery5QueryP"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Any?]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Any?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC7execute5query10parameters12onCompletiony0aB05Query_p_SayypSgGyAH0J6ResultOctF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC7execute5query10parameters12onCompletiony0aB05Query_p_SayypSgGyAH0J6ResultOctF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "execute",
+          "printedName": "execute(_:onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC7execute_12onCompletionySS_y0aB011QueryResultOctF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC7execute_12onCompletionySS_y0aB011QueryResultOctF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "execute",
+          "printedName": "execute(_:parameters:onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Any?]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Any?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC7execute_10parameters12onCompletionySS_SayypSgGy0aB011QueryResultOctF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC7execute_10parameters12onCompletionySS_SayypSgGy0aB011QueryResultOctF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "execute",
+          "printedName": "execute(_:parameters:onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any?]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Any?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "usr": "s:SD"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC7execute_10parameters12onCompletionySS_SDySSypSgGy0aB011QueryResultOctF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC7execute_10parameters12onCompletionySS_SDySSypSgGy0aB011QueryResultOctF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "execute",
+          "printedName": "execute(query:onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Query",
+              "printedName": "SwiftKuery.Query",
+              "usr": "s:10SwiftKuery5QueryP"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC7execute5query12onCompletiony0aB05Query_p_yAG0I6ResultOctF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC7execute5query12onCompletiony0aB05Query_p_yAG0I6ResultOctF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(connectionParameters:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ODBCSQLConnection",
+              "printedName": "SwiftKueryODBCSQL.ODBCSQLConnection",
+              "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC20connectionParametersACSS_tcfc",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC20connectionParametersACSS_tcfc",
+          "moduleName": "SwiftKueryODBCSQL",
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(dsn:username:password:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ODBCSQLConnection",
+              "printedName": "SwiftKueryODBCSQL.ODBCSQLConnection",
+              "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC3dsn8username8passwordACSS_S2Stcfc",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC3dsn8username8passwordACSS_S2Stcfc",
+          "moduleName": "SwiftKueryODBCSQL",
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "createPool",
+          "printedName": "createPool(connectionParameters:poolOptions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionPool",
+              "printedName": "SwiftKuery.ConnectionPool",
+              "usr": "s:10SwiftKuery14ConnectionPoolC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionPoolOptions",
+              "printedName": "SwiftKuery.ConnectionPoolOptions",
+              "usr": "s:10SwiftKuery21ConnectionPoolOptionsV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC10createPool20connectionParameters11poolOptions0aB0010ConnectionF0CSS_AG0kfJ0VtFZ",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC10createPool20connectionParameters11poolOptions0aB0010ConnectionF0CSS_AG0kfJ0VtFZ",
+          "moduleName": "SwiftKueryODBCSQL",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "queryBuilder",
+          "printedName": "queryBuilder",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "QueryBuilder",
+              "printedName": "SwiftKuery.QueryBuilder",
+              "usr": "s:10SwiftKuery12QueryBuilderC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC12queryBuilder0aB005QueryF0Cvp",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC12queryBuilder0aB005QueryF0Cvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 7,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryBuilder",
+                  "printedName": "SwiftKuery.QueryBuilder",
+                  "usr": "s:10SwiftKuery12QueryBuilderC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC12queryBuilder0aB005QueryF0Cvg",
+              "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC12queryBuilder0aB005QueryF0Cvg",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryBuilder",
+                  "printedName": "SwiftKuery.QueryBuilder",
+                  "usr": "s:10SwiftKuery12QueryBuilderC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC12queryBuilder0aB005QueryF0Cvs",
+              "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC12queryBuilder0aB005QueryF0Cvs",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC12queryBuilder0aB005QueryF0CvM",
+              "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC12queryBuilder0aB005QueryF0CvM",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "connect",
+          "printedName": "connect(onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC7connect12onCompletionyy0aB011QueryResultOc_tF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC7connect12onCompletionyy0aB011QueryResultOc_tF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "connectSync",
+          "printedName": "connectSync()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "QueryResult",
+              "printedName": "SwiftKuery.QueryResult",
+              "usr": "s:10SwiftKuery11QueryResultO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC11connectSync0aB011QueryResultOyF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC11connectSync0aB011QueryResultOyF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "closeConnection",
+          "printedName": "closeConnection()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC15closeConnectionyyF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC15closeConnectionyyF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "isConnected",
+          "printedName": "isConnected",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC11isConnectedSbvp",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC11isConnectedSbvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC11isConnectedSbvg",
+              "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC11isConnectedSbvg",
+              "moduleName": "SwiftKueryODBCSQL",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "prepareStatement",
+          "printedName": "prepareStatement(_:onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Query",
+              "printedName": "SwiftKuery.Query",
+              "usr": "s:10SwiftKuery5QueryP"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC16prepareStatement_12onCompletiony0aB05Query_p_yAF0I6ResultOctF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC16prepareStatement_12onCompletiony0aB05Query_p_yAF0I6ResultOctF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "prepareStatement",
+          "printedName": "prepareStatement(_:onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC16prepareStatement_12onCompletionySS_y0aB011QueryResultOctF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC16prepareStatement_12onCompletionySS_y0aB011QueryResultOctF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "release",
+          "printedName": "release(preparedStatement:onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "PreparedStatement",
+              "printedName": "SwiftKuery.PreparedStatement",
+              "usr": "s:10SwiftKuery17PreparedStatementP"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC7release17preparedStatement12onCompletiony0aB008PreparedG0_p_yAG11QueryResultOctF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC7release17preparedStatement12onCompletiony0aB008PreparedG0_p_yAG11QueryResultOctF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "descriptionOf",
+          "printedName": "descriptionOf(query:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Query",
+              "printedName": "SwiftKuery.Query",
+              "usr": "s:10SwiftKuery5QueryP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC13descriptionOf5querySS0aB05Query_p_tKF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC13descriptionOf5querySS0aB05Query_p_tKF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "startTransaction",
+          "printedName": "startTransaction(onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC16startTransaction12onCompletionyy0aB011QueryResultOc_tF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC16startTransaction12onCompletionyy0aB011QueryResultOc_tF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "commit",
+          "printedName": "commit(onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC6commit12onCompletionyy0aB011QueryResultOc_tF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC6commit12onCompletionyy0aB011QueryResultOc_tF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "rollback",
+          "printedName": "rollback(onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC8rollback12onCompletionyy0aB011QueryResultOc_tF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC8rollback12onCompletionyy0aB011QueryResultOc_tF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "create",
+          "printedName": "create(savepoint:onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC6create9savepoint12onCompletionySS_y0aB011QueryResultOctF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC6create9savepoint12onCompletionySS_y0aB011QueryResultOctF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "rollback",
+          "printedName": "rollback(to:onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC8rollback2to12onCompletionySS_y0aB011QueryResultOctF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC8rollback2to12onCompletionySS_y0aB011QueryResultOctF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "release",
+          "printedName": "release(savepoint:onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKuery.QueryResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "QueryResult",
+                  "printedName": "SwiftKuery.QueryResult",
+                  "usr": "s:10SwiftKuery11QueryResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC7release9savepoint12onCompletionySS_y0aB011QueryResultOctF",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC7release9savepoint12onCompletionySS_y0aB011QueryResultOctF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "henv",
+          "printedName": "henv",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "Swift.UnsafeMutableRawPointer?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UnsafeMutableRawPointer",
+                  "printedName": "Swift.UnsafeMutableRawPointer",
+                  "usr": "s:Sv"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC4henv33_83E3356FB21D19FCA799084D261C8675LLSvSgvp",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC4henv33_83E3356FB21D19FCA799084D261C8675LLSvSgvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 8,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "hdbc",
+          "printedName": "hdbc",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "Swift.UnsafeMutableRawPointer?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UnsafeMutableRawPointer",
+                  "printedName": "Swift.UnsafeMutableRawPointer",
+                  "usr": "s:Sv"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC4hdbc33_83E3356FB21D19FCA799084D261C8675LLSvSgvp",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC4hdbc33_83E3356FB21D19FCA799084D261C8675LLSvSgvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 9,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "MAX_DATA",
+          "printedName": "MAX_DATA",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC8MAX_DATA33_83E3356FB21D19FCA799084D261C8675LLSivp",
+          "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC8MAX_DATA33_83E3356FB21D19FCA799084D261C8675LLSivp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 10,
+          "isLet": true,
+          "hasStorage": true
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:17SwiftKueryODBCSQL17ODBCSQLConnectionC",
+      "mangledName": "$s17SwiftKueryODBCSQL17ODBCSQLConnectionC",
+      "moduleName": "SwiftKueryODBCSQL",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Connection",
+          "printedName": "Connection",
+          "usr": "s:10SwiftKuery10ConnectionP",
+          "mangledName": "$s10SwiftKuery10ConnectionP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ODBCSQLColumnBuilder",
+      "printedName": "ODBCSQLColumnBuilder",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "buildColumn",
+          "printedName": "buildColumn(for:using:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Column",
+              "printedName": "SwiftKuery.Column",
+              "usr": "s:10SwiftKuery6ColumnC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "QueryBuilder",
+              "printedName": "SwiftKuery.QueryBuilder",
+              "usr": "s:10SwiftKuery12QueryBuilderC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL20ODBCSQLColumnBuilderC11buildColumn3for5usingSSSg0aB00G0C_AH05QueryE0CtF",
+          "mangledName": "$s17SwiftKueryODBCSQL20ODBCSQLColumnBuilderC11buildColumn3for5usingSSSg0aB00G0C_AH05QueryE0CtF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getAutoIncrementType",
+          "printedName": "getAutoIncrementType(for:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL20ODBCSQLColumnBuilderC20getAutoIncrementType3forSSSgSS_tF",
+          "mangledName": "$s17SwiftKueryODBCSQL20ODBCSQLColumnBuilderC20getAutoIncrementType3forSSSgSS_tF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "packType",
+          "printedName": "packType(_:queryBuilder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ProtocolComposition",
+              "printedName": "Any"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "QueryBuilder",
+              "printedName": "SwiftKuery.QueryBuilder",
+              "usr": "s:10SwiftKuery12QueryBuilderC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL20ODBCSQLColumnBuilderC8packType_05queryE0SSyp_0aB005QueryE0CtKF",
+          "mangledName": "$s17SwiftKueryODBCSQL20ODBCSQLColumnBuilderC8packType_05queryE0SSyp_0aB005QueryE0CtKF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ODBCSQLColumnBuilder",
+              "printedName": "SwiftKueryODBCSQL.ODBCSQLColumnBuilder",
+              "usr": "s:17SwiftKueryODBCSQL20ODBCSQLColumnBuilderC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:17SwiftKueryODBCSQL20ODBCSQLColumnBuilderCACycfc",
+          "mangledName": "$s17SwiftKueryODBCSQL20ODBCSQLColumnBuilderCACycfc",
+          "moduleName": "SwiftKueryODBCSQL",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:17SwiftKueryODBCSQL20ODBCSQLColumnBuilderC",
+      "mangledName": "$s17SwiftKueryODBCSQL20ODBCSQLColumnBuilderC",
+      "moduleName": "SwiftKueryODBCSQL",
+      "isOpen": true,
+      "declAttributes": [
+        "RawDocComment"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "ColumnCreator",
+          "printedName": "ColumnCreator",
+          "usr": "s:10SwiftKuery13ColumnCreatorP",
+          "mangledName": "$s10SwiftKuery13ColumnCreatorP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftKuery",
+      "printedName": "SwiftKuery",
+      "declKind": "Import",
+      "moduleName": "SwiftKueryODBCSQL",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CunixODBC",
+      "printedName": "CunixODBC",
+      "declKind": "Import",
+      "moduleName": "SwiftKueryODBCSQL"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "SwiftKueryODBCSQL"
+    },
+    {
+      "kind": "Import",
+      "name": "Dispatch",
+      "printedName": "Dispatch",
+      "declKind": "Import",
+      "moduleName": "SwiftKueryODBCSQL"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ODBCSQLResultFetcher",
+      "printedName": "ODBCSQLResultFetcher",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "cols",
+          "printedName": "cols",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[SwiftKueryODBCSQL.ODBCColumn]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[SwiftKueryODBCSQL.ODBCColumn]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ODBCColumn",
+                      "printedName": "SwiftKueryODBCSQL.ODBCColumn",
+                      "usr": "s:17SwiftKueryODBCSQL10ODBCColumnC"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL20ODBCSQLResultFetcherC4cols33_FE39AC2C5040149F0EBE44DBB7FD335BLLSayAA10ODBCColumnCGSgvp",
+          "mangledName": "$s17SwiftKueryODBCSQL20ODBCSQLResultFetcherC4cols33_FE39AC2C5040149F0EBE44DBB7FD335BLLSayAA10ODBCColumnCGSgvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "titles",
+          "printedName": "titles",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[Swift.String]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.String]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL20ODBCSQLResultFetcherC6titles33_FE39AC2C5040149F0EBE44DBB7FD335BLLSaySSGSgvp",
+          "mangledName": "$s17SwiftKueryODBCSQL20ODBCSQLResultFetcherC6titles33_FE39AC2C5040149F0EBE44DBB7FD335BLLSaySSGSgvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "row",
+          "printedName": "row",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[Any?]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Any?]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Any?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "ProtocolComposition",
+                          "printedName": "Any"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL20ODBCSQLResultFetcherC3row33_FE39AC2C5040149F0EBE44DBB7FD335BLLSayypSgGSgvp",
+          "mangledName": "$s17SwiftKueryODBCSQL20ODBCSQLResultFetcherC3row33_FE39AC2C5040149F0EBE44DBB7FD335BLLSayypSgGSgvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "MAX_DATA",
+          "printedName": "MAX_DATA",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL20ODBCSQLResultFetcherC8MAX_DATA33_FE39AC2C5040149F0EBE44DBB7FD335BLLSivp",
+          "mangledName": "$s17SwiftKueryODBCSQL20ODBCSQLResultFetcherC8MAX_DATA33_FE39AC2C5040149F0EBE44DBB7FD335BLLSivp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "hstmt",
+          "printedName": "hstmt",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "Swift.UnsafeMutableRawPointer?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UnsafeMutableRawPointer",
+                  "printedName": "Swift.UnsafeMutableRawPointer",
+                  "usr": "s:Sv"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL20ODBCSQLResultFetcherC5hstmt33_FE39AC2C5040149F0EBE44DBB7FD335BLLSvSgvp",
+          "mangledName": "$s17SwiftKueryODBCSQL20ODBCSQLResultFetcherC5hstmt33_FE39AC2C5040149F0EBE44DBB7FD335BLLSvSgvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "fetchNext",
+          "printedName": "fetchNext(callback:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(([Any?]?, Swift.Error?)) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "([Any?]?, Swift.Error?)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "[Any?]?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Array",
+                          "printedName": "[Any?]",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Optional",
+                              "printedName": "Any?",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "ProtocolComposition",
+                                  "printedName": "Any"
+                                }
+                              ],
+                              "usr": "s:Sq"
+                            }
+                          ],
+                          "usr": "s:Sa"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Swift.Error?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Error",
+                          "printedName": "Swift.Error",
+                          "usr": "s:s5ErrorP"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL20ODBCSQLResultFetcherC9fetchNext8callbackyySayypSgGSg_s5Error_pSgt_tc_tF",
+          "mangledName": "$s17SwiftKueryODBCSQL20ODBCSQLResultFetcherC9fetchNext8callbackyySayypSgGSg_s5Error_pSgt_tc_tF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "fetchTitles",
+          "printedName": "fetchTitles(callback:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(([Swift.String]?, Swift.Error?)) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "([Swift.String]?, Swift.Error?)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "[Swift.String]?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Array",
+                          "printedName": "[Swift.String]",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "String",
+                              "printedName": "Swift.String",
+                              "usr": "s:SS"
+                            }
+                          ],
+                          "usr": "s:Sa"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Swift.Error?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Error",
+                          "printedName": "Swift.Error",
+                          "usr": "s:s5ErrorP"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL20ODBCSQLResultFetcherC11fetchTitles8callbackyySaySSGSg_s5Error_pSgt_tc_tF",
+          "mangledName": "$s17SwiftKueryODBCSQL20ODBCSQLResultFetcherC11fetchTitles8callbackyySaySSGSg_s5Error_pSgt_tc_tF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "done",
+          "printedName": "done()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL20ODBCSQLResultFetcherC4doneyyF",
+          "mangledName": "$s17SwiftKueryODBCSQL20ODBCSQLResultFetcherC4doneyyF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "create",
+          "printedName": "create(hstmt:callback:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "Swift.UnsafeMutableRawPointer?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UnsafeMutableRawPointer",
+                  "printedName": "Swift.UnsafeMutableRawPointer",
+                  "usr": "s:Sv"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ODBCSQLResultFetcher) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLResultFetcher",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLResultFetcher",
+                  "usr": "s:17SwiftKueryODBCSQL20ODBCSQLResultFetcherC"
+                }
+              ],
+              "typeAttributes": [
+                "noescape"
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17SwiftKueryODBCSQL20ODBCSQLResultFetcherC6create5hstmt8callbackySvSg_yACXEtFZ",
+          "mangledName": "$s17SwiftKueryODBCSQL20ODBCSQLResultFetcherC6create5hstmt8callbackySvSg_yACXEtFZ",
+          "moduleName": "SwiftKueryODBCSQL",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ODBCSQLResultFetcher",
+              "printedName": "SwiftKueryODBCSQL.ODBCSQLResultFetcher",
+              "usr": "s:17SwiftKueryODBCSQL20ODBCSQLResultFetcherC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:17SwiftKueryODBCSQL20ODBCSQLResultFetcherCACycfc",
+          "mangledName": "$s17SwiftKueryODBCSQL20ODBCSQLResultFetcherCACycfc",
+          "moduleName": "SwiftKueryODBCSQL",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:17SwiftKueryODBCSQL20ODBCSQLResultFetcherC",
+      "mangledName": "$s17SwiftKueryODBCSQL20ODBCSQLResultFetcherC",
+      "moduleName": "SwiftKueryODBCSQL",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "hasMissingDesignatedInitializers": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "ResultFetcher",
+          "printedName": "ResultFetcher",
+          "usr": "s:10SwiftKuery13ResultFetcherP",
+          "mangledName": "$s10SwiftKuery13ResultFetcherP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "SwiftKueryODBCSQL",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ODBCSQLType",
+      "printedName": "ODBCSQLType",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "SQL_TIME",
+          "printedName": "SQL_TIME",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ODBCSQLType.Type) -> SwiftKueryODBCSQL.ODBCSQLType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ODBCSQLType",
+                      "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                      "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO8SQL_TIMEyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO8SQL_TIMEyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "SQL_BIT",
+          "printedName": "SQL_BIT",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ODBCSQLType.Type) -> SwiftKueryODBCSQL.ODBCSQLType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ODBCSQLType",
+                      "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                      "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO7SQL_BITyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO7SQL_BITyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Var",
+          "name": "SQL_TIMESTAMP",
+          "printedName": "SQL_TIMESTAMP",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ODBCSQLType.Type) -> SwiftKueryODBCSQL.ODBCSQLType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ODBCSQLType",
+                      "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                      "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO13SQL_TIMESTAMPyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO13SQL_TIMESTAMPyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 2
+        },
+        {
+          "kind": "Var",
+          "name": "SQL_UNKNOWN_TYPE",
+          "printedName": "SQL_UNKNOWN_TYPE",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ODBCSQLType.Type) -> SwiftKueryODBCSQL.ODBCSQLType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ODBCSQLType",
+                      "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                      "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO16SQL_UNKNOWN_TYPEyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO16SQL_UNKNOWN_TYPEyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 3
+        },
+        {
+          "kind": "Var",
+          "name": "SQL_CHAR",
+          "printedName": "SQL_CHAR",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ODBCSQLType.Type) -> SwiftKueryODBCSQL.ODBCSQLType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ODBCSQLType",
+                      "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                      "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO8SQL_CHARyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO8SQL_CHARyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 4
+        },
+        {
+          "kind": "Var",
+          "name": "SQL_NUMERIC",
+          "printedName": "SQL_NUMERIC",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ODBCSQLType.Type) -> SwiftKueryODBCSQL.ODBCSQLType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ODBCSQLType",
+                      "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                      "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO11SQL_NUMERICyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO11SQL_NUMERICyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 5
+        },
+        {
+          "kind": "Var",
+          "name": "SQL_DECIMAL",
+          "printedName": "SQL_DECIMAL",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ODBCSQLType.Type) -> SwiftKueryODBCSQL.ODBCSQLType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ODBCSQLType",
+                      "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                      "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO11SQL_DECIMALyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO11SQL_DECIMALyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 6
+        },
+        {
+          "kind": "Var",
+          "name": "SQL_INTEGER",
+          "printedName": "SQL_INTEGER",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ODBCSQLType.Type) -> SwiftKueryODBCSQL.ODBCSQLType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ODBCSQLType",
+                      "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                      "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO11SQL_INTEGERyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO11SQL_INTEGERyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 7
+        },
+        {
+          "kind": "Var",
+          "name": "SQL_SMALLINT",
+          "printedName": "SQL_SMALLINT",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ODBCSQLType.Type) -> SwiftKueryODBCSQL.ODBCSQLType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ODBCSQLType",
+                      "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                      "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO12SQL_SMALLINTyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO12SQL_SMALLINTyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 8
+        },
+        {
+          "kind": "Var",
+          "name": "SQL_FLOAT",
+          "printedName": "SQL_FLOAT",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ODBCSQLType.Type) -> SwiftKueryODBCSQL.ODBCSQLType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ODBCSQLType",
+                      "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                      "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO9SQL_FLOATyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO9SQL_FLOATyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 9
+        },
+        {
+          "kind": "Var",
+          "name": "SQL_REAL",
+          "printedName": "SQL_REAL",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ODBCSQLType.Type) -> SwiftKueryODBCSQL.ODBCSQLType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ODBCSQLType",
+                      "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                      "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO8SQL_REALyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO8SQL_REALyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 10
+        },
+        {
+          "kind": "Var",
+          "name": "SQL_DOUBLE",
+          "printedName": "SQL_DOUBLE",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ODBCSQLType.Type) -> SwiftKueryODBCSQL.ODBCSQLType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ODBCSQLType",
+                      "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                      "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO10SQL_DOUBLEyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO10SQL_DOUBLEyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 11
+        },
+        {
+          "kind": "Var",
+          "name": "SQL_DATETIME",
+          "printedName": "SQL_DATETIME",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ODBCSQLType.Type) -> SwiftKueryODBCSQL.ODBCSQLType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ODBCSQLType",
+                      "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                      "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO12SQL_DATETIMEyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO12SQL_DATETIMEyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 12
+        },
+        {
+          "kind": "Var",
+          "name": "SQL_VARCHAR",
+          "printedName": "SQL_VARCHAR",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SwiftKueryODBCSQL.ODBCSQLType.Type) -> SwiftKueryODBCSQL.ODBCSQLType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ODBCSQLType",
+                      "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                      "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO11SQL_VARCHARyA2CmF",
+          "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO11SQL_VARCHARyA2CmF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "fixedbinaryorder": 13
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(rawValue:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "SwiftKueryODBCSQL.ODBCSQLType?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ODBCSQLType",
+                  "printedName": "SwiftKueryODBCSQL.ODBCSQLType",
+                  "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int16",
+              "printedName": "Swift.Int16",
+              "usr": "s:s5Int16V"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO8rawValueACSgs5Int16V_tcfc",
+          "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO8rawValueACSgs5Int16V_tcfc",
+          "moduleName": "SwiftKueryODBCSQL",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "rawValue",
+          "printedName": "rawValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int16",
+              "printedName": "Swift.Int16",
+              "usr": "s:s5Int16V"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO8rawValues5Int16Vvp",
+          "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO8rawValues5Int16Vvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int16",
+                  "printedName": "Swift.Int16",
+                  "usr": "s:s5Int16V"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO8rawValues5Int16Vvg",
+              "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO8rawValues5Int16Vvg",
+              "moduleName": "SwiftKueryODBCSQL",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:17SwiftKueryODBCSQL11ODBCSQLTypeO",
+      "mangledName": "$s17SwiftKueryODBCSQL11ODBCSQLTypeO",
+      "moduleName": "SwiftKueryODBCSQL",
+      "enumRawTypeName": "Int16",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RawRepresentable",
+          "printedName": "RawRepresentable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "RawValue",
+              "printedName": "RawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int16",
+                  "printedName": "Swift.Int16",
+                  "usr": "s:s5Int16V"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SY",
+          "mangledName": "$sSY"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "SwiftKueryODBCSQL",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "String",
+      "printedName": "String",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "stringToUnsafeMutablePointer",
+          "printedName": "stringToUnsafeMutablePointer()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UnsafeMutablePointer",
+              "printedName": "Swift.UnsafeMutablePointer<Swift.UInt8>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt8",
+                  "printedName": "Swift.UInt8",
+                  "usr": "s:s5UInt8V"
+                }
+              ],
+              "usr": "s:Sp"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:SS17SwiftKueryODBCSQLE28stringToUnsafeMutablePointerSpys5UInt8VGyF",
+          "mangledName": "$sSS17SwiftKueryODBCSQLE28stringToUnsafeMutablePointerSpys5UInt8VGyF",
+          "moduleName": "SwiftKueryODBCSQL",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "lengthint16",
+          "printedName": "lengthint16",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int16",
+              "printedName": "Swift.Int16",
+              "usr": "s:s5Int16V"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:SS17SwiftKueryODBCSQLE11lengthint16s5Int16Vvp",
+          "mangledName": "$sSS17SwiftKueryODBCSQLE11lengthint16s5Int16Vvp",
+          "moduleName": "SwiftKueryODBCSQL",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int16",
+                  "printedName": "Swift.Int16",
+                  "usr": "s:s5Int16V"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:SS17SwiftKueryODBCSQLE11lengthint16s5Int16Vvg",
+              "mangledName": "$sSS17SwiftKueryODBCSQLE11lengthint16s5Int16Vvg",
+              "moduleName": "SwiftKueryODBCSQL",
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:SS",
+      "mangledName": "$sSS",
+      "moduleName": "Swift",
+      "declAttributes": [
+        "Frozen"
+      ],
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CodingKeyRepresentable",
+          "printedName": "CodingKeyRepresentable",
+          "usr": "s:s22CodingKeyRepresentableP",
+          "mangledName": "$ss22CodingKeyRepresentableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_HasContiguousBytes",
+          "printedName": "_HasContiguousBytes",
+          "usr": "s:s19_HasContiguousBytesP",
+          "mangledName": "$ss19_HasContiguousBytesP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomReflectable",
+          "printedName": "CustomReflectable",
+          "usr": "s:s17CustomReflectableP",
+          "mangledName": "$ss17CustomReflectableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_CustomPlaygroundQuickLookable",
+          "printedName": "_CustomPlaygroundQuickLookable",
+          "usr": "s:s30_CustomPlaygroundQuickLookableP",
+          "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "TextOutputStream",
+          "printedName": "TextOutputStream",
+          "usr": "s:s16TextOutputStreamP",
+          "mangledName": "$ss16TextOutputStreamP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "TextOutputStreamable",
+          "printedName": "TextOutputStreamable",
+          "usr": "s:s20TextOutputStreamableP",
+          "mangledName": "$ss20TextOutputStreamableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+          "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+          "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+          "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+          "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+          "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+          "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ExpressibleByBuiltinStringLiteral",
+          "printedName": "_ExpressibleByBuiltinStringLiteral",
+          "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+          "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByStringLiteral",
+          "printedName": "ExpressibleByStringLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "StringLiteralType",
+              "printedName": "StringLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s26ExpressibleByStringLiteralP",
+          "mangledName": "$ss26ExpressibleByStringLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+          "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ExtendedGraphemeClusterLiteralType",
+              "printedName": "ExtendedGraphemeClusterLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+          "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByUnicodeScalarLiteral",
+          "printedName": "ExpressibleByUnicodeScalarLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "UnicodeScalarLiteralType",
+              "printedName": "UnicodeScalarLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+          "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "BidirectionalCollection",
+          "printedName": "BidirectionalCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Character",
+                  "printedName": "Swift.Character",
+                  "usr": "s:SJ"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Index",
+                  "printedName": "Swift.String.Index",
+                  "usr": "s:SS5IndexV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Substring",
+                  "printedName": "Swift.Substring",
+                  "usr": "s:Ss"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Indices",
+              "printedName": "Indices",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DefaultIndices",
+                  "printedName": "Swift.DefaultIndices<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:SI"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SK",
+          "mangledName": "$sSK"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Collection",
+          "printedName": "Collection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Character",
+                  "printedName": "Swift.Character",
+                  "usr": "s:SJ"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Index",
+                  "printedName": "Swift.String.Index",
+                  "usr": "s:SS5IndexV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Iterator",
+              "printedName": "Iterator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Iterator",
+                  "printedName": "Swift.String.Iterator",
+                  "usr": "s:SS8IteratorV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Substring",
+                  "printedName": "Swift.Substring",
+                  "usr": "s:Ss"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Indices",
+              "printedName": "Indices",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DefaultIndices",
+                  "printedName": "Swift.DefaultIndices<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:SI"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sl",
+          "mangledName": "$sSl"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sequence",
+          "printedName": "Sequence",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Character",
+                  "printedName": "Swift.Character",
+                  "usr": "s:SJ"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Iterator",
+              "printedName": "Iterator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Iterator",
+                  "printedName": "Swift.String.Iterator",
+                  "usr": "s:SS8IteratorV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:ST",
+          "mangledName": "$sST"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Comparable",
+          "printedName": "Comparable",
+          "usr": "s:SL",
+          "mangledName": "$sSL"
+        },
+        {
+          "kind": "Conformance",
+          "name": "StringProtocol",
+          "printedName": "StringProtocol",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "UTF8View",
+              "printedName": "UTF8View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UTF8View",
+                  "printedName": "Swift.String.UTF8View",
+                  "usr": "s:SS8UTF8ViewV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "UTF16View",
+              "printedName": "UTF16View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UTF16View",
+                  "printedName": "Swift.String.UTF16View",
+                  "usr": "s:SS9UTF16ViewV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "UnicodeScalarView",
+              "printedName": "UnicodeScalarView",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UnicodeScalarView",
+                  "printedName": "Swift.String.UnicodeScalarView",
+                  "usr": "s:SS17UnicodeScalarViewV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Substring",
+                  "printedName": "Swift.Substring",
+                  "usr": "s:Ss"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sy",
+          "mangledName": "$sSy"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByStringInterpolation",
+          "printedName": "ExpressibleByStringInterpolation",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "StringInterpolation",
+              "printedName": "StringInterpolation",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DefaultStringInterpolation",
+                  "printedName": "Swift.DefaultStringInterpolation",
+                  "usr": "s:s26DefaultStringInterpolationV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s32ExpressibleByStringInterpolationP",
+          "mangledName": "$ss32ExpressibleByStringInterpolationP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "LosslessStringConvertible",
+          "printedName": "LosslessStringConvertible",
+          "usr": "s:s25LosslessStringConvertibleP",
+          "mangledName": "$ss25LosslessStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RangeReplaceableCollection",
+          "printedName": "RangeReplaceableCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Substring",
+                  "printedName": "Swift.Substring",
+                  "usr": "s:Ss"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sm",
+          "mangledName": "$sSm"
+        },
+        {
+          "kind": "Conformance",
+          "name": "MirrorPath",
+          "printedName": "MirrorPath",
+          "usr": "s:s10MirrorPathP",
+          "mangledName": "$ss10MirrorPathP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ObjectiveCBridgeable",
+          "printedName": "_ObjectiveCBridgeable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_ObjectiveCType",
+              "printedName": "_ObjectiveCType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSString",
+                  "printedName": "Foundation.NSString",
+                  "usr": "c:objc(cs)NSString"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s21_ObjectiveCBridgeableP",
+          "mangledName": "$ss21_ObjectiveCBridgeableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SQLDataType",
+          "printedName": "SQLDataType",
+          "usr": "s:10SwiftKuery11SQLDataTypeP",
+          "mangledName": "$s10SwiftKuery11SQLDataTypeP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "QueryFilterProtocol",
+          "printedName": "QueryFilterProtocol",
+          "usr": "s:10SwiftKuery19QueryFilterProtocolP",
+          "mangledName": "$s10SwiftKuery19QueryFilterProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "QueryHavingProtocol",
+          "printedName": "QueryHavingProtocol",
+          "usr": "s:10SwiftKuery19QueryHavingProtocolP",
+          "mangledName": "$s10SwiftKuery19QueryHavingProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "QuerySuffixProtocol",
+          "printedName": "QuerySuffixProtocol",
+          "usr": "s:10SwiftKuery19QuerySuffixProtocolP",
+          "mangledName": "$s10SwiftKuery19QuerySuffixProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Buildable",
+          "printedName": "Buildable",
+          "usr": "s:10SwiftKuery9BuildableP",
+          "mangledName": "$s10SwiftKuery9BuildableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

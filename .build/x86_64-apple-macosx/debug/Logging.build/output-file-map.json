@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/master.swiftdeps"
+  },
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/swift-log/Sources/Logging/Locks.swift": {
+    "dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/Locks.d",
+    "object": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/Locks.swift.o",
+    "swiftmodule": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/Locks~partial.swiftmodule",
+    "swift-dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/Locks.swiftdeps"
+  },
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift": {
+    "dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/LogHandler.d",
+    "object": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/LogHandler.swift.o",
+    "swiftmodule": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/LogHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/LogHandler.swiftdeps"
+  },
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/swift-log/Sources/Logging/Logging.swift": {
+    "dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/Logging.d",
+    "object": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/Logging.swift.o",
+    "swiftmodule": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/Logging~partial.swiftmodule",
+    "swift-dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/Logging.swiftdeps"
+  }
+}

@@ -1,0 +1,4 @@
+module SwiftKueryODBCSQL {
+    header "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/SwiftKueryODBCSQL-Swift.h"
+    requires objc
+}

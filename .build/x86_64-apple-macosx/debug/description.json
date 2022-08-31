@@ -1,0 +1,949 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQLPackageTests.xctest/Contents/MacOS/SwiftKueryODBCSQLPackageTests",
+      "productName" : "SwiftKueryODBCSQLPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.LoggerAPI-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/LoggerAPI/Sources/LoggerAPI/Logger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "LoggerAPI",
+      "moduleOutputPath" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/LoggerAPI.swiftmodule",
+      "objects" : [
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/LoggerAPI.build/Logger.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx10.10",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/LoggerAPI.build/LoggerAPI-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Xcc",
+        "-I/usr/local/Cellar/unixodbc/2.3.9_1/include"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/LoggerAPI.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/LoggerAPI.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/LoggerAPI/Sources/LoggerAPI/Logger.swift"
+      ],
+      "tempsPath" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/LoggerAPI.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Logging-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/swift-log/Sources/Logging/Locks.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/swift-log/Sources/Logging/Logging.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Logging",
+      "moduleOutputPath" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.swiftmodule",
+      "objects" : [
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/Locks.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/LogHandler.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/Logging.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx10.10",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/Logging-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Xcc",
+        "-I/usr/local/Cellar/unixodbc/2.3.9_1/include"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/Locks.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/LogHandler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build/Logging.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/swift-log/Sources/Logging/Locks.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/swift-log/Sources/Logging/Logging.swift"
+      ],
+      "tempsPath" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/Logging.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SwiftKuery-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/AggregateColumnExpression.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/AuxiliaryTable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Buildable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Column.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ColumnAndExpressions_Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ColumnCreator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Condition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ConditionalClause.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Connection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ConnectionPool.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ConnectionPoolConnection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ConnectionPoolOptions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Delete.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Field.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Filter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/FilterAndHaving_Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/FilterAndHaving_GlobalFunctions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ForeignKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Having.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Index.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/IndexColumn.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/IndexColumnOrdered.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Insert.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Join.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Migration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/OrderBy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Parameter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Predicate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/PreparedStatement.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Query.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/QueryBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/QueryError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/QueryResult.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/QuerySuffixProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Raw.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/RawField.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ResultFetcher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ResultSet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/SQLDataType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ScalarColumnExpression.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Select.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/SpecialOperators_Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/String+Buildable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Subqueries_GlobalFunctionsAndExtensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Table.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Union.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Update.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Utils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/With.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/LoggerAPI.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftKuery",
+      "moduleOutputPath" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.swiftmodule",
+      "objects" : [
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/AggregateColumnExpression.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/AuxiliaryTable.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Buildable.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Column.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ColumnAndExpressions_Extensions.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ColumnCreator.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Condition.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ConditionalClause.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Connection.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ConnectionPool.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ConnectionPoolConnection.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ConnectionPoolOptions.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Delete.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Field.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Filter.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/FilterAndHaving_Extensions.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/FilterAndHaving_GlobalFunctions.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ForeignKey.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Having.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Index.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/IndexColumn.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/IndexColumnOrdered.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Insert.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Join.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Migration.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/OrderBy.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Parameter.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Predicate.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/PreparedStatement.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Query.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/QueryBuilder.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/QueryError.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/QueryResult.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/QuerySuffixProtocol.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Raw.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/RawField.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ResultFetcher.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ResultSet.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/SQLDataType.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ScalarColumnExpression.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Select.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/SpecialOperators_Extensions.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/String+Buildable.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Subqueries_GlobalFunctionsAndExtensions.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Table.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Union.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Update.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Utils.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/With.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx10.10",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/SwiftKuery-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Xcc",
+        "-I/usr/local/Cellar/unixodbc/2.3.9_1/include"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/AggregateColumnExpression.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/AuxiliaryTable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Buildable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Column.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ColumnAndExpressions_Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ColumnCreator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Condition.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ConditionalClause.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Connection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ConnectionPool.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ConnectionPoolConnection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ConnectionPoolOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Delete.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Field.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Filter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/FilterAndHaving_Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/FilterAndHaving_GlobalFunctions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ForeignKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Having.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Index.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/IndexColumn.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/IndexColumnOrdered.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Insert.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Join.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Migration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/OrderBy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Parameter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Predicate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/PreparedStatement.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Query.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/QueryBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/QueryError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/QueryResult.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/QuerySuffixProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Raw.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/RawField.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ResultFetcher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ResultSet.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/SQLDataType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/ScalarColumnExpression.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Select.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/SpecialOperators_Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/String+Buildable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Subqueries_GlobalFunctionsAndExtensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Table.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Union.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Update.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/Utils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build/With.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/AggregateColumnExpression.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/AuxiliaryTable.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Buildable.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Column.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ColumnAndExpressions_Extensions.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ColumnCreator.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Condition.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ConditionalClause.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Connection.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ConnectionPool.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ConnectionPoolConnection.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ConnectionPoolOptions.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Delete.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Field.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Filter.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/FilterAndHaving_Extensions.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/FilterAndHaving_GlobalFunctions.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ForeignKey.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Having.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Index.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/IndexColumn.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/IndexColumnOrdered.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Insert.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Join.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Migration.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/OrderBy.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Parameter.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Predicate.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/PreparedStatement.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Query.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/QueryBuilder.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/QueryError.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/QueryResult.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/QuerySuffixProtocol.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Raw.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/RawField.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ResultFetcher.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ResultSet.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/SQLDataType.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/ScalarColumnExpression.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Select.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/SpecialOperators_Extensions.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/String+Buildable.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Subqueries_GlobalFunctionsAndExtensions.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Table.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Union.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Update.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/Utils.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/Swift-Kuery/Sources/SwiftKuery/With.swift"
+      ],
+      "tempsPath" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SwiftKueryODBCSQL-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/ODBCColumn.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/ODBCSQLConnection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/ODBCSQLResultFetcher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/ODBCSQLType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/Utils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKuery.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftKueryODBCSQL",
+      "moduleOutputPath" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.swiftmodule",
+      "objects" : [
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCColumn.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLConnection.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLResultFetcher.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLType.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/Utils.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx10.10",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/CunixODBC/module.modulemap",
+        "-module-cache-path",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/SwiftKueryODBCSQL-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Xcc",
+        "-I/usr/local/Cellar/unixodbc/2.3.9_1/include"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCColumn.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLConnection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLResultFetcher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/Utils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/ODBCColumn.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/ODBCSQLConnection.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/ODBCSQLResultFetcher.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/ODBCSQLType.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/Utils.swift"
+      ],
+      "tempsPath" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SwiftKueryODBCSQLTests-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Tests/SwiftKueryODBCSQLTests/CommonUtils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Tests/SwiftKueryODBCSQLTests/Test.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Tests/SwiftKueryODBCSQLTests/TestAlias.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Tests/SwiftKueryODBCSQLTests/TestInsert.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Tests/SwiftKueryODBCSQLTests/TestJoin.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Tests/SwiftKueryODBCSQLTests/TestTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftKueryODBCSQLTests",
+      "moduleOutputPath" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQLTests.swiftmodule",
+      "objects" : [
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQLTests.build/CommonUtils.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQLTests.build/Test.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQLTests.build/TestAlias.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQLTests.build/TestInsert.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQLTests.build/TestJoin.swift.o",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQLTests.build/TestTypes.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx11.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/CunixODBC/module.modulemap",
+        "-module-cache-path",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Xcc",
+        "-I/usr/local/Cellar/unixodbc/2.3.9_1/include"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQLTests.build/CommonUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQLTests.build/Test.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQLTests.build/TestAlias.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQLTests.build/TestInsert.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQLTests.build/TestJoin.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQLTests.build/TestTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQLTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Tests/SwiftKueryODBCSQLTests/CommonUtils.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Tests/SwiftKueryODBCSQLTests/Test.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Tests/SwiftKueryODBCSQLTests/TestAlias.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Tests/SwiftKueryODBCSQLTests/TestInsert.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Tests/SwiftKueryODBCSQLTests/TestJoin.swift",
+        "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Tests/SwiftKueryODBCSQLTests/TestTypes.swift"
+      ],
+      "tempsPath" : "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQLTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

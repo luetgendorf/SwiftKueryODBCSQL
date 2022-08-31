@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import LoggerAPI
 
 public class ODBCColumn
 {

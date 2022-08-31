@@ -15,9 +15,12 @@
  */
 
 import SwiftKuery
-import CunixODBC
+//import CunixODBC
+import unixodbc
+
 import Foundation
 import Dispatch
+import LoggerAPI
 
 // MARK: PostgreSQLResultFetcher
 
@@ -27,7 +30,7 @@ public class ODBCSQLResultFetcher: ResultFetcher {
     private var cols: [ODBCColumn]?
     private var titles: [String]?
     private var row: [Any?]?
-private let MAX_DATA = 100
+    private let MAX_DATA = 100
     private var hstmt:HSTMT!
     
     /// Fetch the next row of the query result. This function is non-blocking.
@@ -35,7 +38,7 @@ private let MAX_DATA = 100
     /// - Parameter callback: A closure that accepts a tuple containing an optional array of values of type Any? representing the next row from the query result and an optional Error.
     
     public func fetchNext(callback: @escaping (([Any?]?, Error?)) -> ()) {
-        //print("Called FetchNext")
+        //Log.debug("Called FetchNext")
         
             if let row = row {
                 self.row = nil
@@ -43,12 +46,12 @@ private let MAX_DATA = 100
             }
         
             DispatchQueue.global().async {
-                var rc = SQLFetch(self.hstmt)
+                let rc = SQLFetch(self.hstmt)
                 if rc != SQL_SUCCESS {
                     
                     // no more rows
                     SQLFreeStmt(self.hstmt,SQLUSMALLINT(SQL_DROP));
-                    print ("Clear Up - Fetcher")
+                    Log.debug("Clear Up - Fetcher")
                     return callback((nil, nil))
                 }
                 
@@ -78,7 +81,7 @@ private let MAX_DATA = 100
         // Todo put MAX_DATA back
         let sqlPointer = UnsafeMutablePointer<UInt8>.allocate(capacity: 1000)
         
-        var rc = CunixODBC.SQLDescribeCol(
+        var rc = SQLDescribeCol(
             hstmt
             ,UInt16(col+1)
             ,sqlPointer
@@ -116,7 +119,7 @@ private let MAX_DATA = 100
         resultFetcher.hstmt = hstmt
         var columns:Int16=0
         // determine number of columns
-        var rc = CunixODBC.SQLNumResultCols(hstmt,&columns)
+        var rc = SQLNumResultCols(hstmt,&columns)
         // todo if there is a problem need to error out
         /*
         if !MYSQLSUCCESS(rc){
@@ -126,16 +129,15 @@ private let MAX_DATA = 100
         }*/
         
         
-        
         var columnNames = [String]()
         var cols = [ODBCColumn]()
         for column in 0 ..< columns {
             let coldefinition = coldef(hstmt:hstmt,col:Int(column))
             cols.append(coldefinition)
             columnNames.append(coldefinition.Name)
-                print("*** "+coldefinition.Name)
+                Log.debug("*** "+coldefinition.Name)
         }
-        print("In the titles bit")
+        Log.debug("In the titles bit")
         resultFetcher.cols = cols
         resultFetcher.titles = columnNames
         
@@ -144,17 +146,30 @@ private let MAX_DATA = 100
     }
     
     private func buildRow() -> [Any?] {
-        
+        Log.debug("")
         var row = [Any?]()
         var cbData:Int! = 0  // Output length of data
         let columns:Int = (titles?.count)!
         
         for i in 0..<columns    {
+            Log.debug("Processing Column: \(i)")
             let sqlPointer = UnsafeMutablePointer<UInt8>.allocate(capacity: MAX_DATA)
             
-            SQLGetData(hstmt, SQLUSMALLINT(i+1),SQLSMALLINT(SQL_C_CHAR),sqlPointer, MAX_DATA, &cbData)
+            let ret = SQLGetData(hstmt, SQLUSMALLINT(i+1),SQLSMALLINT(SQL_C_CHAR),sqlPointer, MAX_DATA, &cbData)
+            
+            if ((((ret)&(~1))==0)) {
+                /* Handle null columns */
+                Log.debug("SQLGetData returned: \(String(cbData))")
+                if (cbData == SQL_NULL_DATA) {
+                    Log.debug("SQL_NULL_DATA")
+                    strcpy(sqlPointer, "")
+                    cbData = 0
+                }
+            }
+
             let sqlData = Data(bytes: sqlPointer, count: cbData)
                 //  TODO - conversion requered
+            Log.debug("SQLData: \(sqlData)")
             row.append(convert(sqlData, column: i))
             sqlPointer.deallocate()
         }
@@ -169,7 +184,7 @@ private let MAX_DATA = 100
         if data.count == 0 { return nil }
         
         let ourcol = cols![column]
-        //print("-- \(ourcol.Name) \(ourcol.Datatype)")
+        Log.debug("-- \(ourcol.Name) \(ourcol.Datatype)")
         switch ourcol.Datatype
         {
         case .SQL_BIT:
@@ -177,8 +192,6 @@ private let MAX_DATA = 100
                 if let somenum:Int32 = Int32(data) { return somenum == 1 }
             }
             return nil
-            
-            
         case .SQL_UNKNOWN_TYPE:
             fallthrough
         case .SQL_CHAR: // 1
@@ -188,12 +201,13 @@ private let MAX_DATA = 100
         case .SQL_DECIMAL://  3
             fallthrough
         case .SQL_INTEGER:// 4
-    
             if let data = String(data: data, encoding: .utf8)    {
-                if let somenum:Int32 = Int32(data) { return somenum }
+                if let somenum:Int32 = Int32(data) {
+                    Log.debug("Convert \(somenum)")
+                    return somenum
+                }
             }
             return nil
-          
         case .SQL_SMALLINT:// 5
             fallthrough
         case .SQL_FLOAT://  6
@@ -204,12 +218,17 @@ private let MAX_DATA = 100
             fallthrough
         case .SQL_DATETIME:// 9
             fallthrough
+        case .SQL_TIME: // 10
+            fallthrough
         case .SQL_VARCHAR:// 12
             fallthrough
         default:
-            if let data = String(data: data, encoding: .utf8)    {
-                return data
+            guard let data = String(decoding: data, as: UTF8.self) as String? else {
+                Log.debug("Failed to convert \(data)")
+                return nil
             }
+            Log.debug(" DEFAULT \(data)")
+            return data
         }
         return nil
     }

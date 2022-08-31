@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/LoggerAPI.build/master.swiftdeps"
+  },
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/LoggerAPI/Sources/LoggerAPI/Logger.swift": {
+    "dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/LoggerAPI.build/Logger.d",
+    "object": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/LoggerAPI.build/Logger.swift.o",
+    "swiftmodule": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/LoggerAPI.build/Logger~partial.swiftmodule",
+    "swift-dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/LoggerAPI.build/Logger.swiftdeps"
+  }
+}

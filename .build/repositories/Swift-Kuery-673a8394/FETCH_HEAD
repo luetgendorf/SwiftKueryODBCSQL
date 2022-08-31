@@ -1,0 +1,201 @@
+d7f401c8275c095b0bb742ac482b53f9ad2ede78	not-for-merge	branch 'auto_increment' of https://github.com/Kitura/Swift-Kuery
+0c0fd73ea5167ab36e78949cbe6a9bf828e6485e	not-for-merge	branch 'insert_nulls_property' of https://github.com/Kitura/Swift-Kuery
+19e4619cdf1e6dfa3839b2376f12f303ab1662bb	not-for-merge	branch 'issue.swift51' of https://github.com/Kitura/Swift-Kuery
+b9f53552fadf85ac0782dce4f9880d9d8189a4b3	not-for-merge	branch 'master' of https://github.com/Kitura/Swift-Kuery
+58670c321a7385f1401c13fcc7c663db82ee6010	not-for-merge	branch 'next' of https://github.com/Kitura/Swift-Kuery
+2f8f1d70852487951d815af3e842007e1ff0e635	not-for-merge	branch 'nil_support' of https://github.com/Kitura/Swift-Kuery
+94945d91cde3e5750be872d9af20f19a51f71df1	not-for-merge	branch 'poolTests' of https://github.com/Kitura/Swift-Kuery
+d8e7cba51c6ca75de23b0229f584b536492ce23e	not-for-merge	branch 'rel_301' of https://github.com/Kitura/Swift-Kuery
+4160324cd10d779c394a314544198450207df447	not-for-merge	branch 'swift5.5_fix' of https://github.com/Kitura/Swift-Kuery
+17324c3eafcd1d46721b1cdcadea5e702d57b640	not-for-merge	branch 'timestamp_columns' of https://github.com/Kitura/Swift-Kuery
+1d32fd42a5b3798057e462e359828dd59fd85141	not-for-merge	branch 'unsigned_integer' of https://github.com/Kitura/Swift-Kuery
+fd0c384559cc060a3b2b7ca75588073eca45d36a	not-for-merge	'refs/pull/1/head' of https://github.com/Kitura/Swift-Kuery
+d95fc2e39c545271dcfef1e4b2eb4e70fbe115e7	not-for-merge	'refs/pull/100/head' of https://github.com/Kitura/Swift-Kuery
+0de717d65c35ccf3a146168cb156990768186b65	not-for-merge	'refs/pull/101/head' of https://github.com/Kitura/Swift-Kuery
+6faee0f5be0476ee2d56796dfc934e09b978748f	not-for-merge	'refs/pull/102/head' of https://github.com/Kitura/Swift-Kuery
+5f5f8e0d07c398fb3aa28752a68c1731a037b79c	not-for-merge	'refs/pull/103/head' of https://github.com/Kitura/Swift-Kuery
+2dd8789ad0360b1770bc6e2fad4e34d452b426d3	not-for-merge	'refs/pull/105/head' of https://github.com/Kitura/Swift-Kuery
+e6bf30c6e4b0cb4e4a69ac1b720619efd4aa381d	not-for-merge	'refs/pull/105/merge' of https://github.com/Kitura/Swift-Kuery
+f949e48847121f424e2fd4f3d3ea2ecbd0de205b	not-for-merge	'refs/pull/108/head' of https://github.com/Kitura/Swift-Kuery
+80f39d7599a5aacf884e0a8083224e06c9d1d4aa	not-for-merge	'refs/pull/108/merge' of https://github.com/Kitura/Swift-Kuery
+2d63bf133213d7e394328d2f9cc35b25ebd3b35e	not-for-merge	'refs/pull/109/head' of https://github.com/Kitura/Swift-Kuery
+5445bdb10c2d27342ee68d1943de354cb4e02d1c	not-for-merge	'refs/pull/109/merge' of https://github.com/Kitura/Swift-Kuery
+2d63bf133213d7e394328d2f9cc35b25ebd3b35e	not-for-merge	'refs/pull/110/head' of https://github.com/Kitura/Swift-Kuery
+f99a46ea9a3da685cc30e29056503749a4ec7b96	not-for-merge	'refs/pull/112/head' of https://github.com/Kitura/Swift-Kuery
+89043c15bbde96aacf638e09ebff2abe81209c2d	not-for-merge	'refs/pull/113/head' of https://github.com/Kitura/Swift-Kuery
+a4fb396c63e0285a33b059a50744fc35b56cb87a	not-for-merge	'refs/pull/113/merge' of https://github.com/Kitura/Swift-Kuery
+f52c78cc0da8bfeea2e466a6100e6dd2375e026f	not-for-merge	'refs/pull/115/head' of https://github.com/Kitura/Swift-Kuery
+e49ba13631a1d613d1b463baa882f819bf0ce5c7	not-for-merge	'refs/pull/118/head' of https://github.com/Kitura/Swift-Kuery
+26a336d0375dce3215d1a12fcbf0dc612a664768	not-for-merge	'refs/pull/119/head' of https://github.com/Kitura/Swift-Kuery
+e55533c1881afcc0313130fb62c8b56c519859a5	not-for-merge	'refs/pull/121/head' of https://github.com/Kitura/Swift-Kuery
+bedcecd39331dc4254120683da399e3b394aaa82	not-for-merge	'refs/pull/122/head' of https://github.com/Kitura/Swift-Kuery
+34b6670a2d312ac21676b68acc3ee23b13d70048	not-for-merge	'refs/pull/123/head' of https://github.com/Kitura/Swift-Kuery
+f4c1b1d537210ad072677c236a265e0d7b4d0ded	not-for-merge	'refs/pull/124/head' of https://github.com/Kitura/Swift-Kuery
+3585b46ada0b184849e327793929d2112737268f	not-for-merge	'refs/pull/124/merge' of https://github.com/Kitura/Swift-Kuery
+eb4ddf311d23aef2c63e7b3835141bf8fd388590	not-for-merge	'refs/pull/125/head' of https://github.com/Kitura/Swift-Kuery
+ec179a6166804309ab3b006b7b1118835d38b81a	not-for-merge	'refs/pull/126/head' of https://github.com/Kitura/Swift-Kuery
+284648fe8068822661b63658ef2c35e94d7b311e	not-for-merge	'refs/pull/127/head' of https://github.com/Kitura/Swift-Kuery
+4c4e013f1c782d0358b021292f3724e3a98db9d9	not-for-merge	'refs/pull/128/head' of https://github.com/Kitura/Swift-Kuery
+0e10e6c2887b954560e949d6c5a607207ec7cc06	not-for-merge	'refs/pull/128/merge' of https://github.com/Kitura/Swift-Kuery
+b340ecda01b21f01a1f64e8b748c93d94fd79216	not-for-merge	'refs/pull/129/head' of https://github.com/Kitura/Swift-Kuery
+7d0b900791ca63aef13e76e85954692bb8542a9d	not-for-merge	'refs/pull/130/head' of https://github.com/Kitura/Swift-Kuery
+db0dee384a538334df189c8662dcc16aa6c9c88d	not-for-merge	'refs/pull/132/head' of https://github.com/Kitura/Swift-Kuery
+9a7f28bff98bbc927d308b59a546b9f2e708343e	not-for-merge	'refs/pull/133/head' of https://github.com/Kitura/Swift-Kuery
+32696914ca5d25332d4ef43dc4d33a369c3daf09	not-for-merge	'refs/pull/136/head' of https://github.com/Kitura/Swift-Kuery
+9bdfb4129bd5250cd1c4a446c97b4d3a2c63243a	not-for-merge	'refs/pull/137/head' of https://github.com/Kitura/Swift-Kuery
+a8c9ee5064173f8fa86c3af4a6a641919b9a29e0	not-for-merge	'refs/pull/138/head' of https://github.com/Kitura/Swift-Kuery
+3a01a08111a0927cb96e3b6b17f653940b38cea6	not-for-merge	'refs/pull/139/head' of https://github.com/Kitura/Swift-Kuery
+b093b83ae5f687a9789267f30f83e4e5e3afacf4	not-for-merge	'refs/pull/140/head' of https://github.com/Kitura/Swift-Kuery
+38b827dc838e8faeeacd3bc173e5ee0705a8e4b3	not-for-merge	'refs/pull/142/head' of https://github.com/Kitura/Swift-Kuery
+1b937b0b08da7edcc6ee1a0e667660e91db05901	not-for-merge	'refs/pull/142/merge' of https://github.com/Kitura/Swift-Kuery
+c6cfd5e5003517741491bbec5e73dcc31ec61301	not-for-merge	'refs/pull/143/head' of https://github.com/Kitura/Swift-Kuery
+37e607d5a645d576083e2a10be6d9b72be127fa6	not-for-merge	'refs/pull/144/head' of https://github.com/Kitura/Swift-Kuery
+5dfd1c9d7521c6361b7ea45c991bf562e59257df	not-for-merge	'refs/pull/145/head' of https://github.com/Kitura/Swift-Kuery
+81dd6dfe2687885c511ef9136acac2f635251825	not-for-merge	'refs/pull/147/head' of https://github.com/Kitura/Swift-Kuery
+b405728fe434086f878ab3b04fa01dc54ff6a1bc	not-for-merge	'refs/pull/147/merge' of https://github.com/Kitura/Swift-Kuery
+abd645e42ae8ab022b4568e0c51edcf38056516b	not-for-merge	'refs/pull/148/head' of https://github.com/Kitura/Swift-Kuery
+506701844f4fd844449d61edb3d1d13218000656	not-for-merge	'refs/pull/149/head' of https://github.com/Kitura/Swift-Kuery
+b6c0e90204b7e6a44d7530d4a2fe3330ec78e748	not-for-merge	'refs/pull/152/head' of https://github.com/Kitura/Swift-Kuery
+5ab8fce23d5db8c1127f8524216d46da408f48c3	not-for-merge	'refs/pull/153/head' of https://github.com/Kitura/Swift-Kuery
+00afac0cd45eb44a16f534a3b43c789b42e0c548	not-for-merge	'refs/pull/159/head' of https://github.com/Kitura/Swift-Kuery
+784831bf1ec94c9ce9fb3bc2b08788be35d69ce9	not-for-merge	'refs/pull/161/head' of https://github.com/Kitura/Swift-Kuery
+4aa98a5d3b564e06072bdb01dfb47f54e642651d	not-for-merge	'refs/pull/163/head' of https://github.com/Kitura/Swift-Kuery
+ef2b281e6faed577916ca8d08c30698ea92b9e9f	not-for-merge	'refs/pull/164/head' of https://github.com/Kitura/Swift-Kuery
+d80df83a359db65c30f12c5d5d23f5f8bd3cbc58	not-for-merge	'refs/pull/166/head' of https://github.com/Kitura/Swift-Kuery
+4f2fe2aaf3a37461b45192a284da671c8c230f06	not-for-merge	'refs/pull/167/head' of https://github.com/Kitura/Swift-Kuery
+3aabfc524941951ec25bc5b356e3bc2832052a55	not-for-merge	'refs/pull/168/head' of https://github.com/Kitura/Swift-Kuery
+e554fbe9109a90517ab154d653cac101113a7e9d	not-for-merge	'refs/pull/169/head' of https://github.com/Kitura/Swift-Kuery
+58670c321a7385f1401c13fcc7c663db82ee6010	not-for-merge	'refs/pull/170/head' of https://github.com/Kitura/Swift-Kuery
+96f6cd0b0b6bee975fc71582269c405c6a2d77b4	not-for-merge	'refs/pull/171/head' of https://github.com/Kitura/Swift-Kuery
+c5bd2a92affaef468d7ac33ba0a1e899c4583b50	not-for-merge	'refs/pull/173/head' of https://github.com/Kitura/Swift-Kuery
+279f0151f69b593da8ebfe450dc3487430853533	not-for-merge	'refs/pull/174/head' of https://github.com/Kitura/Swift-Kuery
+ed1c6fd1bf8366780bbafbe4c53d11c9a61fb1f9	not-for-merge	'refs/pull/176/head' of https://github.com/Kitura/Swift-Kuery
+2f8f1d70852487951d815af3e842007e1ff0e635	not-for-merge	'refs/pull/177/head' of https://github.com/Kitura/Swift-Kuery
+509aa9d5d70587d640974f23fa31f5149667c520	not-for-merge	'refs/pull/178/head' of https://github.com/Kitura/Swift-Kuery
+36113eb79265a281f0d606f1ebf75c00a3cd56f5	not-for-merge	'refs/pull/180/head' of https://github.com/Kitura/Swift-Kuery
+2bbabef4340c62b3350ba8b97e82648207ac6d68	not-for-merge	'refs/pull/182/head' of https://github.com/Kitura/Swift-Kuery
+d8e7cba51c6ca75de23b0229f584b536492ce23e	not-for-merge	'refs/pull/183/head' of https://github.com/Kitura/Swift-Kuery
+0c0fd73ea5167ab36e78949cbe6a9bf828e6485e	not-for-merge	'refs/pull/184/head' of https://github.com/Kitura/Swift-Kuery
+c0acb74c1054938c617e521ab4b58529e90454fc	not-for-merge	'refs/pull/185/head' of https://github.com/Kitura/Swift-Kuery
+9e47725190a48346aa1fb6ed7dd0e401c2c117ea	not-for-merge	'refs/pull/187/head' of https://github.com/Kitura/Swift-Kuery
+710bbad332d39360bcf05ea53af12e69ac85b64b	not-for-merge	'refs/pull/188/head' of https://github.com/Kitura/Swift-Kuery
+290ffb2dced9a57f87f64f64b5a5787f343e221c	not-for-merge	'refs/pull/190/head' of https://github.com/Kitura/Swift-Kuery
+d8b55965c30a677f1fa0451969470f1c7c8414c6	not-for-merge	'refs/pull/193/head' of https://github.com/Kitura/Swift-Kuery
+2e54790acdce0781d8d09057cf28c0ef3ea7aaf9	not-for-merge	'refs/pull/193/merge' of https://github.com/Kitura/Swift-Kuery
+dafb3ca4b51f559fbe2314806c9284a2c8caf081	not-for-merge	'refs/pull/194/head' of https://github.com/Kitura/Swift-Kuery
+f89b1f3bdd12040dd8cf94e3dfe2b8b3ae929c9e	not-for-merge	'refs/pull/194/merge' of https://github.com/Kitura/Swift-Kuery
+517e7cedc87b8c0eef7737062e6fbd3e99a9b15b	not-for-merge	'refs/pull/195/head' of https://github.com/Kitura/Swift-Kuery
+7dbec0d8511dd5b71b3459f21f7de33036858d37	not-for-merge	'refs/pull/195/merge' of https://github.com/Kitura/Swift-Kuery
+8c2bb50c3494f28eda804457304ab79e734d81d8	not-for-merge	'refs/pull/196/head' of https://github.com/Kitura/Swift-Kuery
+7685c80b52cc47f5788a19997cbf50d64ff01dca	not-for-merge	'refs/pull/197/head' of https://github.com/Kitura/Swift-Kuery
+d9071fbd66cbe22ee7d8cb08076fbe777d6957e3	not-for-merge	'refs/pull/198/head' of https://github.com/Kitura/Swift-Kuery
+9ef9588059986a460100a5e19f95d483e138a4c3	not-for-merge	'refs/pull/199/head' of https://github.com/Kitura/Swift-Kuery
+8751ad8316dbf8a636c399ab62e0c4ee1dac411a	not-for-merge	'refs/pull/199/merge' of https://github.com/Kitura/Swift-Kuery
+1d32fd42a5b3798057e462e359828dd59fd85141	not-for-merge	'refs/pull/201/head' of https://github.com/Kitura/Swift-Kuery
+a066e61143e4144432cd23137363780c4a234616	not-for-merge	'refs/pull/201/merge' of https://github.com/Kitura/Swift-Kuery
+d7f401c8275c095b0bb742ac482b53f9ad2ede78	not-for-merge	'refs/pull/202/head' of https://github.com/Kitura/Swift-Kuery
+09f232db6a253a12329093a3bd990e236070a29f	not-for-merge	'refs/pull/202/merge' of https://github.com/Kitura/Swift-Kuery
+4160324cd10d779c394a314544198450207df447	not-for-merge	'refs/pull/203/head' of https://github.com/Kitura/Swift-Kuery
+ea9d943a09a7b15f6599c35c8ba0733c53709398	not-for-merge	'refs/pull/204/head' of https://github.com/Kitura/Swift-Kuery
+3d01ac2e9212670b2bf489b79a64c2fea0fa479b	not-for-merge	'refs/pull/21/head' of https://github.com/Kitura/Swift-Kuery
+dae41deadd097bdc0476194e1d86792ff3b524a7	not-for-merge	'refs/pull/32/head' of https://github.com/Kitura/Swift-Kuery
+4d62ff67dcea9eff53960c925fc3a0e25864cddf	not-for-merge	'refs/pull/32/merge' of https://github.com/Kitura/Swift-Kuery
+989288e7a43f13f9a634b2040d99adf2af45f6e5	not-for-merge	'refs/pull/33/head' of https://github.com/Kitura/Swift-Kuery
+6b8b7606561992f634f2ace3e0d0ac1bf3f1be79	not-for-merge	'refs/pull/35/head' of https://github.com/Kitura/Swift-Kuery
+d5e572086cdd71d0dbab66ea9b971a7c38c8f671	not-for-merge	'refs/pull/36/head' of https://github.com/Kitura/Swift-Kuery
+5646db23de0334c59c31e9fa855d17c318d682b3	not-for-merge	'refs/pull/37/head' of https://github.com/Kitura/Swift-Kuery
+4ea866d03043a38c032e00c794ec79fa8037421a	not-for-merge	'refs/pull/39/head' of https://github.com/Kitura/Swift-Kuery
+7cfe9d8d9f6910ac4fe8bf390ad8e224f0a538d2	not-for-merge	'refs/pull/42/head' of https://github.com/Kitura/Swift-Kuery
+dca86c8bf5052987dcfe45fce4c6ed34498bf5fa	not-for-merge	'refs/pull/43/head' of https://github.com/Kitura/Swift-Kuery
+23d692a2e7afd4175338ab834d7829ee7b43802e	not-for-merge	'refs/pull/47/head' of https://github.com/Kitura/Swift-Kuery
+a0a9aec5be05f0a7dfee7fd36405d4b844aba4d1	not-for-merge	'refs/pull/49/head' of https://github.com/Kitura/Swift-Kuery
+fc3cf1b545d065438250777bdfe11adcab74e5c1	not-for-merge	'refs/pull/50/head' of https://github.com/Kitura/Swift-Kuery
+823eb84a004096c3461e3b71bb343bdc3c7801ef	not-for-merge	'refs/pull/51/head' of https://github.com/Kitura/Swift-Kuery
+126064382828f73d0617e7e457dc63becaf73757	not-for-merge	'refs/pull/52/head' of https://github.com/Kitura/Swift-Kuery
+de484b0a06e1a919dd3d9bce5c9f737a83e8a2dc	not-for-merge	'refs/pull/53/head' of https://github.com/Kitura/Swift-Kuery
+2c25a2d3d2cfcc10227711d5937b720a43d4923c	not-for-merge	'refs/pull/54/head' of https://github.com/Kitura/Swift-Kuery
+32990d00dea1fe6a9988fd71b02c1c873d0714a0	not-for-merge	'refs/pull/55/head' of https://github.com/Kitura/Swift-Kuery
+17dbb906c3e3cea80df7999a01604423ccbca7a4	not-for-merge	'refs/pull/57/head' of https://github.com/Kitura/Swift-Kuery
+9e4f39df4f3314ec08fba9d1156d36c9f756d024	not-for-merge	'refs/pull/58/head' of https://github.com/Kitura/Swift-Kuery
+33ef9e27016a4212b486da63f97202f1a5b07507	not-for-merge	'refs/pull/64/head' of https://github.com/Kitura/Swift-Kuery
+9578640ad1f47d55955d4a0ac16fe59ce9007109	not-for-merge	'refs/pull/66/head' of https://github.com/Kitura/Swift-Kuery
+4da9168dd3da09721f979a9891e50e47705765b0	not-for-merge	'refs/pull/67/head' of https://github.com/Kitura/Swift-Kuery
+3755bc53888d61ff1040cdb02247df0ec057c304	not-for-merge	'refs/pull/68/head' of https://github.com/Kitura/Swift-Kuery
+206c6094f488abfe5efdd3f37ecf2232832c46d0	not-for-merge	'refs/pull/73/head' of https://github.com/Kitura/Swift-Kuery
+4f10edfdd18533cd9548cdde0cc32f5e4cd59d94	not-for-merge	'refs/pull/74/head' of https://github.com/Kitura/Swift-Kuery
+93c30b9db371d406a51b74389cb3a41a4675e6e6	not-for-merge	'refs/pull/77/head' of https://github.com/Kitura/Swift-Kuery
+3907dc23e5fc03120afe1569b9c7a3d3a9912f89	not-for-merge	'refs/pull/77/merge' of https://github.com/Kitura/Swift-Kuery
+b6d1fb0789ceb8a8a428217a965b7c7a77d48890	not-for-merge	'refs/pull/78/head' of https://github.com/Kitura/Swift-Kuery
+2624e1ff5a18c0678cdd7d4adece630e475b7121	not-for-merge	'refs/pull/81/head' of https://github.com/Kitura/Swift-Kuery
+1d140f32a77e698d55df6de05bb3c26c051b6266	not-for-merge	'refs/pull/84/head' of https://github.com/Kitura/Swift-Kuery
+4c992f198bb3fd634fdaa520d54be07240a33d11	not-for-merge	'refs/pull/85/head' of https://github.com/Kitura/Swift-Kuery
+fe7f85275099f30747ea2357ab4e5f50d1ef3dce	not-for-merge	'refs/pull/86/head' of https://github.com/Kitura/Swift-Kuery
+b56b38f03d5abd3f0158c8d336d2c5b2f4a7f942	not-for-merge	'refs/pull/89/head' of https://github.com/Kitura/Swift-Kuery
+d0c9c7fcef5eb281cfe6f9f87545a050b67ff603	not-for-merge	'refs/pull/91/head' of https://github.com/Kitura/Swift-Kuery
+8b84284dc9fddcb116a62dfbf3ce5de2bb3ea4d9	not-for-merge	'refs/pull/91/merge' of https://github.com/Kitura/Swift-Kuery
+e759c571683d831fcfdd0dde7d93a1cee8644ed1	not-for-merge	'refs/pull/93/head' of https://github.com/Kitura/Swift-Kuery
+9388e71675131fc78501f30dddea1f25402626b6	not-for-merge	'refs/pull/95/head' of https://github.com/Kitura/Swift-Kuery
+8371a55bb8cc595991dea43803d45df3ac6bb4e4	not-for-merge	tag '0.0.1' of https://github.com/Kitura/Swift-Kuery
+c260f6e2c3cf61a58273f3b34b44a0ddc9df34d9	not-for-merge	tag '0.0.10' of https://github.com/Kitura/Swift-Kuery
+c755833df15890745d48f63d07df8b74e316cac1	not-for-merge	tag '0.0.11' of https://github.com/Kitura/Swift-Kuery
+1f700fd90eb23b138c0ed0818c6aa22133270652	not-for-merge	tag '0.0.12' of https://github.com/Kitura/Swift-Kuery
+6f6f32afd798ffa7a094c7298aead317e264923a	not-for-merge	tag '0.0.13' of https://github.com/Kitura/Swift-Kuery
+890efe93d109ecde50621782bea389d825999d8c	not-for-merge	tag '0.0.14' of https://github.com/Kitura/Swift-Kuery
+7a4bffcd34d24fd984b7f2ab7870d7e3e5551603	not-for-merge	tag '0.0.15' of https://github.com/Kitura/Swift-Kuery
+5dc65108d41c863111fbc1e5c71c148b4a68df42	not-for-merge	tag '0.0.16' of https://github.com/Kitura/Swift-Kuery
+6026ad7aa002c749046aad91d063cc289e271588	not-for-merge	tag '0.0.17' of https://github.com/Kitura/Swift-Kuery
+a0f603cbbd4d955d20e98a13ae41af42dfdca5be	not-for-merge	tag '0.0.18' of https://github.com/Kitura/Swift-Kuery
+c96eaff30893d1aad1d7d925e8310809eacbb2ae	not-for-merge	tag '0.0.2' of https://github.com/Kitura/Swift-Kuery
+d3e75324bbbb5d4513fe191327dc8cbc3c6144a0	not-for-merge	tag '0.0.3' of https://github.com/Kitura/Swift-Kuery
+b2050891a9809ceb05796f4f6ad3150f18c49178	not-for-merge	tag '0.0.4' of https://github.com/Kitura/Swift-Kuery
+ba319f5d68129f591bc86b91ba27a76fd64a54df	not-for-merge	tag '0.0.5' of https://github.com/Kitura/Swift-Kuery
+18f37802f60d3c81d99ae921d3805415c81141e7	not-for-merge	tag '0.0.6' of https://github.com/Kitura/Swift-Kuery
+4dcba78deccc05d68acc9f5fffd8652640a59271	not-for-merge	tag '0.0.7' of https://github.com/Kitura/Swift-Kuery
+04bab613b9797665838a71b2e49191e341d17c77	not-for-merge	tag '0.0.8' of https://github.com/Kitura/Swift-Kuery
+59142c0495bd0c712f5b6fbf6396fe50b635a3c2	not-for-merge	tag '0.0.9' of https://github.com/Kitura/Swift-Kuery
+8f20c6ab911af49d77bb92741483f9f2bfe07cf6	not-for-merge	tag '0.1.0' of https://github.com/Kitura/Swift-Kuery
+1cba63311a7fbdb9d0463633252ed08928e33467	not-for-merge	tag '0.1.1' of https://github.com/Kitura/Swift-Kuery
+93ee9a140a86ba7cadacb09518225c5ead41944f	not-for-merge	tag '0.10.0' of https://github.com/Kitura/Swift-Kuery
+707a3c1f9be1fb4447f2d365ad3396c41c96f8a0	not-for-merge	tag '0.11.0' of https://github.com/Kitura/Swift-Kuery
+1bd9d546427a7108ce93c04788a8de6d4089ba75	not-for-merge	tag '0.12.0' of https://github.com/Kitura/Swift-Kuery
+ed6b21cbd09bb9f73ff342ef323b080b393524a5	not-for-merge	tag '0.12.1' of https://github.com/Kitura/Swift-Kuery
+549dbeda33eac626d539d41be10a27663ad7cabf	not-for-merge	tag '0.12.2' of https://github.com/Kitura/Swift-Kuery
+48a1a76f0cd9d27863eb37910e3c8d8a3e828e2b	not-for-merge	tag '0.12.3' of https://github.com/Kitura/Swift-Kuery
+cbed4b3f42979d6e632e7f66295f1edef82c6c99	not-for-merge	tag '0.12.4' of https://github.com/Kitura/Swift-Kuery
+802ff4798a650cd5540a1b7d289c76a2aa746d24	not-for-merge	tag '0.13.0' of https://github.com/Kitura/Swift-Kuery
+406848904606042f4b593e567e0b89ae3f87d82a	not-for-merge	tag '0.13.1' of https://github.com/Kitura/Swift-Kuery
+4cb27ddd5d08b1b8bf749858c70855d40649d7e1	not-for-merge	tag '0.13.2' of https://github.com/Kitura/Swift-Kuery
+909f75f4417609fe11934be1eabf0eb9244d08f4	not-for-merge	tag '0.13.3' of https://github.com/Kitura/Swift-Kuery
+9b3700218be068e1db27ae949e4d7f1d7fff2f4f	not-for-merge	tag '0.2.0' of https://github.com/Kitura/Swift-Kuery
+8ac091e29695c3b2f21da48a3fc5462cc07c3a56	not-for-merge	tag '0.3.0' of https://github.com/Kitura/Swift-Kuery
+1e0eff74c0530bbeeb474cdff931124212147f93	not-for-merge	tag '0.3.1' of https://github.com/Kitura/Swift-Kuery
+f016463617cb4388e0bf870d87a11c0ff637440e	not-for-merge	tag '0.4.0' of https://github.com/Kitura/Swift-Kuery
+6e7db6035996fd1b8ebc06359295271cd117a63e	not-for-merge	tag '0.4.1' of https://github.com/Kitura/Swift-Kuery
+105a6d5325a32b1472fb468923565d8d757a8131	not-for-merge	tag '0.4.2' of https://github.com/Kitura/Swift-Kuery
+4e852034276d6b4d796dc5ea4f7bb2b5fa32cc82	not-for-merge	tag '0.5.0' of https://github.com/Kitura/Swift-Kuery
+840dc28be7aefa458bf6737f332b5a54e16fcf20	not-for-merge	tag '0.5.1' of https://github.com/Kitura/Swift-Kuery
+dc7124a4e9486c89b6157bd808c8cd190ab17726	not-for-merge	tag '0.5.2' of https://github.com/Kitura/Swift-Kuery
+33fe61f7ea08ffdb207e3f93a1086b585801c36a	not-for-merge	tag '0.5.3' of https://github.com/Kitura/Swift-Kuery
+1edb79fc829cb90022813eb6771c6bc02132f677	not-for-merge	tag '0.5.4' of https://github.com/Kitura/Swift-Kuery
+efbddd2e2b837990fee3a07f8eaf0d7b3614ab3a	not-for-merge	tag '0.5.5' of https://github.com/Kitura/Swift-Kuery
+1af6009306723ed108b305af8dc1490066ad8b41	not-for-merge	tag '0.5.6' of https://github.com/Kitura/Swift-Kuery
+3957fdd90245ca8b524a4d399491163161f66e64	not-for-merge	tag '0.5.7' of https://github.com/Kitura/Swift-Kuery
+023e983570def466b90130b7beee08cbbb3841c7	not-for-merge	tag '0.6.0' of https://github.com/Kitura/Swift-Kuery
+6df6639a05ac4f21a0c05ba97894f22108c375d9	not-for-merge	tag '0.6.1' of https://github.com/Kitura/Swift-Kuery
+8126776dadc1435aa66aa19992ec595965e81197	not-for-merge	tag '0.7.0' of https://github.com/Kitura/Swift-Kuery
+f94af97966dc2d6459fa78c73bc3f9485f90c4de	not-for-merge	tag '0.8.0' of https://github.com/Kitura/Swift-Kuery
+0cd2b3afa1a7c6da3cecfff106e76976c423993e	not-for-merge	tag '0.9.0' of https://github.com/Kitura/Swift-Kuery
+3f29347ff791c49ed2347f770a9f502508fdb3c2	not-for-merge	tag '0.9.1' of https://github.com/Kitura/Swift-Kuery
+909f75f4417609fe11934be1eabf0eb9244d08f4	not-for-merge	tag '1.0.0' of https://github.com/Kitura/Swift-Kuery
+81ec99e2c36645a09172299ea867bb2d2809e51c	not-for-merge	tag '1.0.1' of https://github.com/Kitura/Swift-Kuery
+fc4bbd00a98334bb8b916a43299e38ae8437356a	not-for-merge	tag '1.0.2' of https://github.com/Kitura/Swift-Kuery
+d74cff26d9e0ac6f5788db68759b866d1e828653	not-for-merge	tag '1.1.0' of https://github.com/Kitura/Swift-Kuery
+3bbaaccf7ce332147ec4f7aed69b5691ebb06617	not-for-merge	tag '1.2.0' of https://github.com/Kitura/Swift-Kuery
+a95ae0131c6742e8ff1575db8ed7fda1bf4b93ee	not-for-merge	tag '1.3.0' of https://github.com/Kitura/Swift-Kuery
+d48a2adc012bce013989d8a6f564d05699b40620	not-for-merge	tag '1.3.1' of https://github.com/Kitura/Swift-Kuery
+de890f1eb5e483961dcaf806467cb2770399efa1	not-for-merge	tag '2.0.0' of https://github.com/Kitura/Swift-Kuery
+e89beba7d46ee9525e85521cdf20358bf0057e97	not-for-merge	tag '3.0.0' of https://github.com/Kitura/Swift-Kuery
+d8e7cba51c6ca75de23b0229f584b536492ce23e	not-for-merge	tag '3.0.1' of https://github.com/Kitura/Swift-Kuery
+94f04e06160e054a31d67cc0c93829fe51002f96	not-for-merge	tag '3.0.200' of https://github.com/Kitura/Swift-Kuery
+b9f53552fadf85ac0782dce4f9880d9d8189a4b3	not-for-merge	tag '4.0.0' of https://github.com/Kitura/Swift-Kuery
+19e4619cdf1e6dfa3839b2376f12f303ab1662bb	not-for-merge	tag 'IBM-2019' of https://github.com/Kitura/Swift-Kuery

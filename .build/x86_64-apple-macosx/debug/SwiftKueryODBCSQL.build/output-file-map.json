@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/master.swiftdeps"
+  },
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/ODBCColumn.swift": {
+    "dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCColumn.d",
+    "object": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCColumn.swift.o",
+    "swiftmodule": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCColumn~partial.swiftmodule",
+    "swift-dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCColumn.swiftdeps"
+  },
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/ODBCSQLConnection.swift": {
+    "dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLConnection.d",
+    "object": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLConnection.swift.o",
+    "swiftmodule": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLConnection~partial.swiftmodule",
+    "swift-dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLConnection.swiftdeps"
+  },
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/ODBCSQLResultFetcher.swift": {
+    "dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLResultFetcher.d",
+    "object": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLResultFetcher.swift.o",
+    "swiftmodule": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLResultFetcher~partial.swiftmodule",
+    "swift-dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLResultFetcher.swiftdeps"
+  },
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/ODBCSQLType.swift": {
+    "dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLType.d",
+    "object": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLType.swift.o",
+    "swiftmodule": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLType~partial.swiftmodule",
+    "swift-dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/ODBCSQLType.swiftdeps"
+  },
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/Sources/SwiftKueryODBCSQL/Utils.swift": {
+    "dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/Utils.d",
+    "object": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/Utils.swift.o",
+    "swiftmodule": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/Utils~partial.swiftmodule",
+    "swift-dependencies": "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/x86_64-apple-macosx/debug/SwiftKueryODBCSQL.build/Utils.swiftdeps"
+  }
+}

@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "b63d882b95d5d1f6e6a3e449e2316458a0d269e7c180249f9ee635c6e1227c57"
+build_start_time: [1649594515, 185672044]
+build_end_time: [1649594515, 240906000]
+inputs:
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/swift-log/Sources/Logging/Locks.swift": [1649362214, 52581787]
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift": [1649362214, 52804946]
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/swift-log/Sources/Logging/Logging.swift": [1649362214, 53364276]

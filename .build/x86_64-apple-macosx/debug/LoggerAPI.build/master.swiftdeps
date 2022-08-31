@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "b63d882b95d5d1f6e6a3e449e2316458a0d269e7c180249f9ee635c6e1227c57"
+build_start_time: [1649594515, 343376159]
+build_end_time: [1649594515, 391068935]
+inputs:
+  "/Users/Shared/_VERSIONCONTROLLED/SwiftKueryODBCSQL/.build/checkouts/LoggerAPI/Sources/LoggerAPI/Logger.swift": [1649362213, 275684833]

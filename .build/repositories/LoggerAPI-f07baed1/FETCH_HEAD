@@ -1,0 +1,89 @@
+84208b40d12e3915b60e6f054eb5aa573e71a247	not-for-merge	branch 'debugging' of https://github.com/Kitura/LoggerAPI
+793eafb3035ab44c0947acbb680b01868c1c4674	not-for-merge	branch 'issue.swift51' of https://github.com/Kitura/LoggerAPI
+8c5dedcee059466422e03495e61adf69e38fc042	not-for-merge	branch 'issue_25' of https://github.com/Kitura/LoggerAPI
+af40d29ea96c50cad7eacbeb5f25a19b33cae582	not-for-merge	branch 'lint_autocorrect' of https://github.com/Kitura/LoggerAPI
+4e6b45e850ffa275e8e26a24c6454fd709d5b6ac	not-for-merge	branch 'master' of https://github.com/Kitura/LoggerAPI
+6da1ddfdd80e3279f42d7bab7c536df8ab8e2785	not-for-merge	branch 'perf' of https://github.com/Kitura/LoggerAPI
+a6f04781e5a232fc32104f72cb307909e1996158	not-for-merge	branch 'updatePodspec' of https://github.com/Kitura/LoggerAPI
+709356a4f599afe45903347693c038cfd46a2341	not-for-merge	'refs/pull/1/head' of https://github.com/Kitura/LoggerAPI
+07754cfe8629d6c16fadb65d3d315a6b7628d484	not-for-merge	'refs/pull/1/merge' of https://github.com/Kitura/LoggerAPI
+66d1614675b6c143bdb8553fd90686f93a8ab731	not-for-merge	'refs/pull/10/head' of https://github.com/Kitura/LoggerAPI
+18cb8ba85603831a5475b73d61c2038c469acfce	not-for-merge	'refs/pull/11/head' of https://github.com/Kitura/LoggerAPI
+ec207c44df263bae9df0dffad4b808220d4b0369	not-for-merge	'refs/pull/12/head' of https://github.com/Kitura/LoggerAPI
+3737852c53b545dce79ef1828aa15977d6fc1bfc	not-for-merge	'refs/pull/13/head' of https://github.com/Kitura/LoggerAPI
+ba574404f0a01f964d305132e1c745f490902393	not-for-merge	'refs/pull/15/head' of https://github.com/Kitura/LoggerAPI
+d2c70048e0228a4b6714be5c83f78ff3d875db59	not-for-merge	'refs/pull/16/head' of https://github.com/Kitura/LoggerAPI
+4437c4443b9180b7775d863e1d17f7006fdae633	not-for-merge	'refs/pull/17/head' of https://github.com/Kitura/LoggerAPI
+7e0f72ba9d95008a82df527a0be525ac46ad70d3	not-for-merge	'refs/pull/18/head' of https://github.com/Kitura/LoggerAPI
+681d73d1622464b1487a6a5d18d3942b942094ed	not-for-merge	'refs/pull/19/head' of https://github.com/Kitura/LoggerAPI
+20ad7c4f5d56dd3ccc99194253c402031def4a86	not-for-merge	'refs/pull/2/head' of https://github.com/Kitura/LoggerAPI
+881397a2a7f1ee1707175a05d55296d6b6146fe9	not-for-merge	'refs/pull/20/head' of https://github.com/Kitura/LoggerAPI
+b67235c481f15a97b987e0ca8b447d8754a9f135	not-for-merge	'refs/pull/21/head' of https://github.com/Kitura/LoggerAPI
+1919c6ec6eb714ccc6a295e9eae126a86ca2b429	not-for-merge	'refs/pull/22/head' of https://github.com/Kitura/LoggerAPI
+19971bec78de97155e58cb1129206b8378196a61	not-for-merge	'refs/pull/23/head' of https://github.com/Kitura/LoggerAPI
+678c5c107f01b0ed01047487ba69178060bba53c	not-for-merge	'refs/pull/23/merge' of https://github.com/Kitura/LoggerAPI
+ed7fd2f19c387242028b6bdb20b8133df2f9f26a	not-for-merge	'refs/pull/24/head' of https://github.com/Kitura/LoggerAPI
+8c5dedcee059466422e03495e61adf69e38fc042	not-for-merge	'refs/pull/26/head' of https://github.com/Kitura/LoggerAPI
+2f8cc65940ec1e45b6b01607a5066278389bad98	not-for-merge	'refs/pull/27/head' of https://github.com/Kitura/LoggerAPI
+7db9cb084366edaf86c03d6552fbd1232d9c7898	not-for-merge	'refs/pull/28/head' of https://github.com/Kitura/LoggerAPI
+965db2ff30668d0414d3e74d8349e3d956ab7a5a	not-for-merge	'refs/pull/29/head' of https://github.com/Kitura/LoggerAPI
+9105cdd957d4bc440f625aee8477bc2554bc4ba5	not-for-merge	'refs/pull/3/head' of https://github.com/Kitura/LoggerAPI
+7ef8a6d283e9b8df67a0c0364209713ff0bd8a18	not-for-merge	'refs/pull/30/head' of https://github.com/Kitura/LoggerAPI
+5b427aaa513d2b64cb229d8763ed2473193d5a35	not-for-merge	'refs/pull/31/head' of https://github.com/Kitura/LoggerAPI
+74ea324811388af724f4b006630c9dc3e6d790a0	not-for-merge	'refs/pull/31/merge' of https://github.com/Kitura/LoggerAPI
+f12a45a52e04c4a127ab4a8a4c55a1aa94ac9270	not-for-merge	'refs/pull/32/head' of https://github.com/Kitura/LoggerAPI
+6e6e2ca8c5d0dee92461f5227b05e578a7fea470	not-for-merge	'refs/pull/33/head' of https://github.com/Kitura/LoggerAPI
+02f84c14ac4eab0487569fb637ccb9636c41c8e7	not-for-merge	'refs/pull/34/head' of https://github.com/Kitura/LoggerAPI
+53b4c65c116ff69f930a75bfe0ab4ea90c267b0d	not-for-merge	'refs/pull/35/head' of https://github.com/Kitura/LoggerAPI
+d094748d2ca3d3357b7dc65a57291ace18b4a44a	not-for-merge	'refs/pull/36/head' of https://github.com/Kitura/LoggerAPI
+4fc3a488897d63c99278d8dd5cd4e5cf71420ba2	not-for-merge	'refs/pull/37/head' of https://github.com/Kitura/LoggerAPI
+868d867523e54b55b69c5e34843b0cf39834fa96	not-for-merge	'refs/pull/39/head' of https://github.com/Kitura/LoggerAPI
+a6f04781e5a232fc32104f72cb307909e1996158	not-for-merge	'refs/pull/40/head' of https://github.com/Kitura/LoggerAPI
+c259126faa1dbaafc09f3eafc4921af7de4ff392	not-for-merge	'refs/pull/41/head' of https://github.com/Kitura/LoggerAPI
+1ed3a3eb7d06f5d268e7a844dc15a0eb1f79dda4	not-for-merge	'refs/pull/42/head' of https://github.com/Kitura/LoggerAPI
+89cd37f53d2f2f48e8b9a1a62573e56e1528f5c8	not-for-merge	'refs/pull/43/head' of https://github.com/Kitura/LoggerAPI
+29fc1a0baec00a089166d14308908b6af3b3817b	not-for-merge	'refs/pull/44/head' of https://github.com/Kitura/LoggerAPI
+048aecc3ac1662b2a24f059f0a404ddf97e55390	not-for-merge	'refs/pull/45/head' of https://github.com/Kitura/LoggerAPI
+c317112318cae01cd3e8dc75b7d4a4521931b102	not-for-merge	'refs/pull/47/head' of https://github.com/Kitura/LoggerAPI
+e2ec76643170408fcbbe5e39a2febb15f64a7ff5	not-for-merge	'refs/pull/48/head' of https://github.com/Kitura/LoggerAPI
+575a68f40b80966ae9dd3f2c1313ff001faadc95	not-for-merge	'refs/pull/49/head' of https://github.com/Kitura/LoggerAPI
+993a8560801e7ed8a4d75d09f964dfa8ff604f2e	not-for-merge	'refs/pull/5/head' of https://github.com/Kitura/LoggerAPI
+65aa6d1e3cde7ab76c176682bca7600b3ab4b3de	not-for-merge	'refs/pull/5/merge' of https://github.com/Kitura/LoggerAPI
+887099a3af5b13fdff41966d1aeffda13234972f	not-for-merge	'refs/pull/50/head' of https://github.com/Kitura/LoggerAPI
+b1d250a8500b9c5c3b1e4de6fb7c1b1fdc940b08	not-for-merge	'refs/pull/51/head' of https://github.com/Kitura/LoggerAPI
+16bdcb4ebcad40eda9c8427e926c2a7be996d9b0	not-for-merge	'refs/pull/54/head' of https://github.com/Kitura/LoggerAPI
+e76d4b3f606e024c6cb4e5ac29a66477b05368fa	not-for-merge	'refs/pull/55/head' of https://github.com/Kitura/LoggerAPI
+c32c40df8cf95e5d866b0e08638f25a127ebe273	not-for-merge	'refs/pull/56/head' of https://github.com/Kitura/LoggerAPI
+3f99852d9ae703dfa35929c7fbc32347a69faa81	not-for-merge	'refs/pull/57/head' of https://github.com/Kitura/LoggerAPI
+11431851b122a550bd97e6a415dcd3542dbe76ec	not-for-merge	'refs/pull/58/head' of https://github.com/Kitura/LoggerAPI
+696ea188af5b2cc057d4f855ed395b5546df62d8	not-for-merge	'refs/pull/59/head' of https://github.com/Kitura/LoggerAPI
+03e3b751afb6cb0d8dee9d4499e57deb1cec0cd6	not-for-merge	'refs/pull/8/head' of https://github.com/Kitura/LoggerAPI
+899f0a2a4abed92de4aaf40df4a569d90c8ef093	not-for-merge	tag '0.0.1' of https://github.com/Kitura/LoggerAPI
+160d4ed7d689eec01316e2d7f1f9fe0fd5f202e4	not-for-merge	tag '0.10.0' of https://github.com/Kitura/LoggerAPI
+ec207c44df263bae9df0dffad4b808220d4b0369	not-for-merge	tag '0.11.0' of https://github.com/Kitura/LoggerAPI
+3454b0df248433f47b25cdc430f7a9c5e200ba71	not-for-merge	tag '0.12.0' of https://github.com/Kitura/LoggerAPI
+92548b560cba12c23c4e900bcff8099f5c5bc68a	not-for-merge	tag '0.2.0' of https://github.com/Kitura/LoggerAPI
+f5d0ec4d566c45787ec3225ab2fe980a65fe07e4	not-for-merge	tag '0.3.0' of https://github.com/Kitura/LoggerAPI
+916dc050cf77631407709f3ea6933ede5ea5ec01	not-for-merge	tag '0.4.0' of https://github.com/Kitura/LoggerAPI
+e53a5feb4a883d5fa32a4c48e42ec579047b2c0b	not-for-merge	tag '0.5.0' of https://github.com/Kitura/LoggerAPI
+554de2ca0d06209ed687b28686333c791ecab5d4	not-for-merge	tag '0.5.1' of https://github.com/Kitura/LoggerAPI
+5bde0fbfae15bd1ac98007dbad2d70c8b863299e	not-for-merge	tag '0.7.0' of https://github.com/Kitura/LoggerAPI
+5991d7848089ed48fcddff9690c25b19f9429b43	not-for-merge	tag '0.7.1' of https://github.com/Kitura/LoggerAPI
+9b307047ad82d65b25f9f0afe1e15cd65a0b8388	not-for-merge	tag '0.8.0' of https://github.com/Kitura/LoggerAPI
+ad804d8aad48c4de4978bdae3491f306dae48beb	not-for-merge	tag '0.9.0' of https://github.com/Kitura/LoggerAPI
+d4c16820048450feb5bfd4177866d694314e16f3	not-for-merge	tag '1.0.0' of https://github.com/Kitura/LoggerAPI
+c64ce645bcc908a8a4dbbe83b41e4ad4eb2846b2	not-for-merge	tag '1.1.0' of https://github.com/Kitura/LoggerAPI
+175ce650e06937cc718c835be47983c2049e05bb	not-for-merge	tag '1.3.0' of https://github.com/Kitura/LoggerAPI
+2a8ed946fdd619e4ee89ccedffd16b428c0384b8	not-for-merge	tag '1.4.0' of https://github.com/Kitura/LoggerAPI
+92f3a9b4ee6039d4daa0c096811cf55337d90b38	not-for-merge	tag '1.5.0' of https://github.com/Kitura/LoggerAPI
+0fc4675006b67a60695233a628794422728f8793	not-for-merge	tag '1.6.0' of https://github.com/Kitura/LoggerAPI
+51bca3a997a299ab7291c62bf91ec9c8e299f42a	not-for-merge	tag '1.7.0' of https://github.com/Kitura/LoggerAPI
+6b62fe66da9b8794d6581e5c341710eea3173cd4	not-for-merge	tag '1.7.1' of https://github.com/Kitura/LoggerAPI
+ee0084cbb8bace59b3409cec05bedc5d2e97f8b7	not-for-merge	tag '1.7.2' of https://github.com/Kitura/LoggerAPI
+5041f2673aa75d6e973d9b6bd3956bc5068387c8	not-for-merge	tag '1.7.3' of https://github.com/Kitura/LoggerAPI
+d0ccb4158b83f8692531892a9c894bb757593c6f	not-for-merge	tag '1.8.0' of https://github.com/Kitura/LoggerAPI
+e29073bb7cecf3673e56bcb16180e8fd0cb091f6	not-for-merge	tag '1.8.1' of https://github.com/Kitura/LoggerAPI
+3357dd9526cdf9436fa63bb792b669e6efdc43da	not-for-merge	tag '1.9.0' of https://github.com/Kitura/LoggerAPI
+e82d34eab3f0b05391082b11ea07d3b70d2f65bb	not-for-merge	tag '1.9.200' of https://github.com/Kitura/LoggerAPI
+4e6b45e850ffa275e8e26a24c6454fd709d5b6ac	not-for-merge	tag '2.0.0' of https://github.com/Kitura/LoggerAPI
+793eafb3035ab44c0947acbb680b01868c1c4674	not-for-merge	tag 'IBM-2019' of https://github.com/Kitura/LoggerAPI
